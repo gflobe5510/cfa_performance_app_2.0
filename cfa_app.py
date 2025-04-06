@@ -1,175 +1,103 @@
 import streamlit as st
-import pandas as pd
 import json
-
-with open('questions.json', 'r') as file:
-    data = json.load(file)
-    print(data)
 import random
+import os
 import sqlite3
-from datetime import datetime
-from fpdf import FPDF
-import plotly.express as px
 
 st.set_page_config(page_title="CFA Study App", layout="wide")
-DB_PATH = "results.db"
+st.title("📊 CFA Practice App 2.0")
 
-@st.cache_data
+# Load Questions JSON
 def load_questions():
-    """Load questions from the questions.json file."""
-    try:
-        with open("questions.json", "r") as f:
-            questions = json.load(f)
-            return questions.get("questions", [])
-    except json.JSONDecodeError as e:
-        st.error(f"Failed to decode JSON: {e}")
-        return []
-    except FileNotFoundError as e:
-        st.error(f"File not found: {e}")
-        return []
-    except Exception as e:
-        st.error(f"Failed to load questions.json: {e}")
-        return []
+    with open("questions.json", "r") as f:
+        data = json.load(f)
+    return data["questions"]
 
+# Load questions
 questions = load_questions()
+topics = sorted(set(q["topic"] for q in questions))
+difficulties = sorted(set(q["difficulty"] for q in questions))
 
-def execute_db_query(query, params=()):
-    """Execute a database query with parameters."""
-    try:
-        with sqlite3.connect(DB_PATH) as conn:
-            cursor = conn.cursor()
-            cursor.execute(query, params)
-            conn.commit()
-    except sqlite3.Error as e:
-        st.error(f"Database error: {e}")
+# SQLite DB setup
+def init_db():
+    conn = sqlite3.connect("results.db")
+    c = conn.cursor()
+    c.execute('''CREATE TABLE IF NOT EXISTS results (
+                 username TEXT, 
+                 question_id INTEGER, 
+                 correct INTEGER, 
+                 flagged INTEGER DEFAULT 0
+                 )''')
+    conn.commit()
+    return conn
 
-def log_result(username, q, user_answer, correct):
-    """Log the result of a user's answer to the database."""
-    query = """
-        CREATE TABLE IF NOT EXISTS exam_results (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            username TEXT,
-            question TEXT,
-            user_answer TEXT,
-            correct_answer TEXT,
-            is_correct INTEGER,
-            topic TEXT,
-            difficulty TEXT,
-            timestamp TEXT
-        )
-    """
-    execute_db_query(query)
+db_conn = init_db()
 
-    query = """
-        INSERT INTO exam_results (
-            username, question, user_answer, correct_answer, is_correct,
-            topic, difficulty, timestamp
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-    """
-    params = (
-        username, q['question'], user_answer, q['answer'],
-        int(correct), q['topic'], q['difficulty'], datetime.now().isoformat()
-    )
-    execute_db_query(query, params)
+# Sidebar user setup
+username = st.sidebar.text_input("Enter your name")
+if not username:
+    st.stop()
 
-def show_completion_animation():
-    """Show completion animation for the exam."""
-    st.markdown("### 🎉 Exam Complete! Great job!")
-    st.balloons()
+# App Tabs
+mode = st.sidebar.radio("Choose Mode", ["Practice", "Mock Exam", "Progress"])
 
-st.sidebar.title("CFA Study App")
-username = st.sidebar.text_input("Enter your name", value="Guest")
-section = st.sidebar.radio("Navigate", ["🏠 Home", "🧠 Practice", "📊 Dashboard", "⏱️ Mock Exam", "🔁 Review Mistakes"])
+# Practice Mode
+if mode == "Practice":
+    st.header("🎯 Practice Questions")
+    selected_topic = st.selectbox("Select Topic", topics)
+    selected_difficulty = st.selectbox("Select Difficulty", difficulties)
 
-st.title("📘 CFA Mastery Platform")
-
-if not questions:
-    st.warning("Questions not available. Please ensure questions.json is uploaded.")
-elif section == "🏠 Home":
-    st.success("Welcome to your CFA Practice App. Use the sidebar to begin.")
-elif section == "🧠 Practice":
-    st.header("🧠 Practice Questions")
-    topic = st.selectbox("Select Topic", sorted(set(q["topic"] for q in questions)))
-    difficulty = st.selectbox("Select Difficulty", ["easy", "medium", "hard"])
-    count = st.slider("Number of Questions", 1, 10, 5)
-    filtered = [q for q in questions if q["topic"] == topic and q["difficulty"] == difficulty]
-    sample = random.sample(filtered, min(count, len(filtered)))
-
-    for i, q in enumerate(sample):
-        st.markdown(f"**Q{i+1}: {q['question']}**")
-        answer = st.radio("Choose an answer:", [""] + q["options"], key=f"practice_{i}", index=0)
-        if st.button(f"Submit Q{i+1}", key=f"submit_{i}"):
-            if answer == "":
-                st.warning("Please select an answer before submitting.")
-            elif answer.startswith(q["answer"]):
-                st.success("✅ Correct!")
-            else:
-                st.error(f"❌ Incorrect. Correct answer: {q['answer']}")
-            st.info(q["explanation"])
-            log_result(username, q, answer, answer.startswith(q["answer"]))
-
-elif section == "📊 Dashboard":
-    try:
-        conn = sqlite3.connect(DB_PATH)
-        df = pd.read_sql("SELECT * FROM exam_results WHERE username = ?", conn, params=(username,))
-        conn.close()
-        if df.empty:
-            st.info("No data yet. Answer some questions to see your dashboard.")
-        else:
-            df["timestamp"] = pd.to_datetime(df["timestamp"])
-            df["date"] = df["timestamp"].dt.date
-            daily = df.groupby("date")["is_correct"].mean().reset_index()
-            daily["Accuracy %"] = daily["is_correct"] * 100
-            st.subheader("📈 Accuracy Over Time")
-            st.plotly_chart(px.line(daily, x="date", y="Accuracy %", markers=True))
-            topic_perf = df.groupby("topic")["is_correct"].mean().reset_index()
-            topic_perf["Score (%)"] = topic_perf["is_correct"] * 100
-            st.subheader("📚 Score by Topic")
-            st.plotly_chart(px.bar(topic_perf, x="topic", y="Score (%)"))
-    except Exception as e:
-        st.error(f"Failed to load dashboard data: {e}")
-
-elif section == "⏱️ Mock Exam":
-    if "mock_questions" not in st.session_state:
-        if st.button("Start Mock Exam"):
-            st.session_state.mock_questions = random.sample(questions, 50)
-            st.session_state.mock_index = 0
-            st.session_state.mock_score = 0
+    filtered = [q for q in questions if q["topic"] == selected_topic and q["difficulty"] == selected_difficulty]
+    if not filtered:
+        st.warning("No questions found for this selection.")
     else:
-        idx = st.session_state.mock_index
-        if idx < 50:
-            q = st.session_state.mock_questions[idx]
-            st.markdown(f"**Q{idx+1}: {q['question']}**")
-            answer = st.radio("Choose an answer:", [""] + q["options"], key=f"mock_{idx}", index=0)
-            if st.button("Submit Answer", key=f"submit_mock_{idx}"):
-                correct = answer and answer.startswith(q["answer"])
-                if correct:
-                    st.success("✅ Correct!")
-                    st.session_state.mock_score += 1
-                else:
-                    st.error(f"❌ Incorrect. Correct: {q['answer']}")
-                st.info(q["explanation"])
-                log_result(username, q, answer, correct)
-                st.session_state.mock_index += 1
-                st.experimental_rerun()
-        else:
-            show_completion_animation()
-            st.success(f"🏁 Final Score: {st.session_state.mock_score} / 50")
-            del st.session_state.mock_questions
-            del st.session_state.mock_index
-            del st.session_state.mock_score
+        q = random.choice(filtered)
+        st.subheader(q["question"])
+        user_choice = st.radio("Select your answer:", q["options"], index=None)
+        if st.button("Submit"):
+            is_correct = user_choice and user_choice.startswith(q["answer"])
+            st.success("Correct! ✅" if is_correct else f"Incorrect ❌. Correct answer: {q['answer']}")
+            st.markdown(f"**Explanation**: {q['explanation']}")
+            c = db_conn.cursor()
+            c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
+                      (username, q["id"], int(is_correct)))
+            db_conn.commit()
 
-elif section == "🔁 Review Mistakes":
+# Mock Exam Mode
+elif mode == "Mock Exam":
+    st.header("🧪 Timed Mock Exam (10 Questions)")
+    exam_qs = random.sample(questions, 10)
+    score = 0
+
+    for i, q in enumerate(exam_qs):
+        st.subheader(f"Q{i + 1}: {q['question']}")
+        user_choice = st.radio(f"Your Answer for Q{i + 1}:", q["options"], key=f"mock_{i}", index=None)
+        if user_choice and user_choice.startswith(q["answer"]):
+            score += 1
+
+    if st.button("Finish Exam"):
+        st.success(f"You scored {score}/10")
+        for q in exam_qs:
+            c = db_conn.cursor()
+            c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
+                      (username, q["id"], None))
+        db_conn.commit()
+
+# Progress View
+elif mode == "Progress":
+    st.header("📈 Progress Tracker")
+    df = None
     try:
-        conn = sqlite3.connect(DB_PATH)
-        missed = pd.read_sql("SELECT * FROM exam_results WHERE username = ? AND is_correct = 0", conn, params=(username,))
-        conn.close()
-        if missed.empty:
-            st.info("✅ No missed questions to review.")
-        else:
-            for i, row in missed.iterrows():
-                st.markdown(f"**Q{i+1}: {row['question']}**")
-                st.error(f"Your Answer: {row['user_answer']} | Correct: {row['correct_answer']}")
-                st.info("Explanation: See CFA curriculum.")
-    except Exception as e:
-        st.error(f"Review error: {e}")
+        df = st.cache_data(lambda: pd.read_sql_query(f"SELECT * FROM results WHERE username = ?", db_conn, params=(username,)))()
+    except:
+        st.warning("No progress data yet.")
+
+    if df is not None and not df.empty:
+        total = df.shape[0]
+        correct = df[df.correct == 1].shape[0]
+        accuracy = round(correct / total * 100, 2) if total > 0 else 0
+        st.metric("Total Attempted", total)
+        st.metric("Correct", correct)
+        st.metric("Accuracy (%)", accuracy)
+    else:
+        st.info("Answer some questions to see your stats!")
