@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 import json
+
+with open('questions.json', 'r') as file:
+    data = json.load(file)
+    print(data)
 import random
 import sqlite3
 from datetime import datetime
