@@ -1,8 +1,8 @@
 {
   "exam": "CFA Level 1",
   "metadata": {
-    "version": "1.3",
-    "last_updated": "2023-11-16",
+    "version": "2.0",
+    "last_updated": "2025-04-06",
     "topic_weights": {
       "Ethics": 15,
       "Quantitative Methods": 10,
@@ -28,19 +28,1294 @@
   "questions": [
     {
       "id": 1,
-      "question": "Under Standard II(A) - Material Nonpublic Information, which action violates the Code?",
+      "question": "Sample question 1 for Ethics: What is the most appropriate action or concept?",
       "options": [
-        "A. Using an industry report for analysis",
-        "B. Trading on a rumor later confirmed by filings",
-        "C. Declining insider information",
-        "D. Analyzing public 10-K filings"
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
       ],
-      "answer": "B",
-      "explanation": "B violates Standard II(A) because trading on rumors constitutes using material nonpublic information, even if later confirmed.",
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance.",
       "topic": "Ethics",
-      "subtopic": "Standard II(A)",
+      "subtopic": "Subtopic 1",
       "difficulty": "medium",
-      "references": "CFA Standards, p. 32",
+      "references": "CFA Ethics, Reading 1",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 2,
+      "question": "Sample question 2 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance.",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 2",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 2",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 3,
+      "question": "Sample question 3 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance.",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 3",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 3",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 4,
+      "question": "Sample question 4 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance.",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 4",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 4",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 5,
+      "question": "Sample question 5 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance.",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 5",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 5",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 6,
+      "question": "Sample question 6 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance.",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 6",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 6",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 7,
+      "question": "Sample question 7 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance.",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 7",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 7",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 8,
+      "question": "Sample question 8 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance.",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 8",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 8",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 9,
+      "question": "Sample question 9 for Quantitative Methods: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Quantitative Methods",
+        "B. Incorrect choice B for Quantitative Methods",
+        "C. Correct choice C for Quantitative Methods",
+        "D. Plausible but incorrect choice D for Quantitative Methods"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Quantitative Methods based on CFA curriculum guidance.",
+      "topic": "Quantitative Methods",
+      "subtopic": "Subtopic 1",
+      "difficulty": "medium",
+      "references": "CFA Quantitative Methods, Reading 1",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 10,
+      "question": "Sample question 10 for Quantitative Methods: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Quantitative Methods",
+        "B. Incorrect choice B for Quantitative Methods",
+        "C. Correct choice C for Quantitative Methods",
+        "D. Plausible but incorrect choice D for Quantitative Methods"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Quantitative Methods based on CFA curriculum guidance.",
+      "topic": "Quantitative Methods",
+      "subtopic": "Subtopic 2",
+      "difficulty": "medium",
+      "references": "CFA Quantitative Methods, Reading 2",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 11,
+      "question": "Sample question 11 for Quantitative Methods: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Quantitative Methods",
+        "B. Incorrect choice B for Quantitative Methods",
+        "C. Correct choice C for Quantitative Methods",
+        "D. Plausible but incorrect choice D for Quantitative Methods"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Quantitative Methods based on CFA curriculum guidance.",
+      "topic": "Quantitative Methods",
+      "subtopic": "Subtopic 3",
+      "difficulty": "medium",
+      "references": "CFA Quantitative Methods, Reading 3",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 12,
+      "question": "Sample question 12 for Quantitative Methods: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Quantitative Methods",
+        "B. Incorrect choice B for Quantitative Methods",
+        "C. Correct choice C for Quantitative Methods",
+        "D. Plausible but incorrect choice D for Quantitative Methods"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Quantitative Methods based on CFA curriculum guidance.",
+      "topic": "Quantitative Methods",
+      "subtopic": "Subtopic 4",
+      "difficulty": "medium",
+      "references": "CFA Quantitative Methods, Reading 4",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 13,
+      "question": "Sample question 13 for Quantitative Methods: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Quantitative Methods",
+        "B. Incorrect choice B for Quantitative Methods",
+        "C. Correct choice C for Quantitative Methods",
+        "D. Plausible but incorrect choice D for Quantitative Methods"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Quantitative Methods based on CFA curriculum guidance.",
+      "topic": "Quantitative Methods",
+      "subtopic": "Subtopic 5",
+      "difficulty": "medium",
+      "references": "CFA Quantitative Methods, Reading 5",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 14,
+      "question": "Sample question 14 for Economics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Economics",
+        "B. Incorrect choice B for Economics",
+        "C. Correct choice C for Economics",
+        "D. Plausible but incorrect choice D for Economics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Economics based on CFA curriculum guidance.",
+      "topic": "Economics",
+      "subtopic": "Subtopic 1",
+      "difficulty": "medium",
+      "references": "CFA Economics, Reading 1",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 15,
+      "question": "Sample question 15 for Economics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Economics",
+        "B. Incorrect choice B for Economics",
+        "C. Correct choice C for Economics",
+        "D. Plausible but incorrect choice D for Economics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Economics based on CFA curriculum guidance.",
+      "topic": "Economics",
+      "subtopic": "Subtopic 2",
+      "difficulty": "medium",
+      "references": "CFA Economics, Reading 2",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 16,
+      "question": "Sample question 16 for Economics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Economics",
+        "B. Incorrect choice B for Economics",
+        "C. Correct choice C for Economics",
+        "D. Plausible but incorrect choice D for Economics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Economics based on CFA curriculum guidance.",
+      "topic": "Economics",
+      "subtopic": "Subtopic 3",
+      "difficulty": "medium",
+      "references": "CFA Economics, Reading 3",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 17,
+      "question": "Sample question 17 for Economics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Economics",
+        "B. Incorrect choice B for Economics",
+        "C. Correct choice C for Economics",
+        "D. Plausible but incorrect choice D for Economics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Economics based on CFA curriculum guidance.",
+      "topic": "Economics",
+      "subtopic": "Subtopic 4",
+      "difficulty": "medium",
+      "references": "CFA Economics, Reading 4",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 18,
+      "question": "Sample question 18 for Economics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Economics",
+        "B. Incorrect choice B for Economics",
+        "C. Correct choice C for Economics",
+        "D. Plausible but incorrect choice D for Economics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Economics based on CFA curriculum guidance.",
+      "topic": "Economics",
+      "subtopic": "Subtopic 5",
+      "difficulty": "medium",
+      "references": "CFA Economics, Reading 5",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 19,
+      "question": "Sample question 19 for Financial Reporting and Analysis: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Financial Reporting and Analysis",
+        "B. Incorrect choice B for Financial Reporting and Analysis",
+        "C. Correct choice C for Financial Reporting and Analysis",
+        "D. Plausible but incorrect choice D for Financial Reporting and Analysis"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Financial Reporting and Analysis based on CFA curriculum guidance.",
+      "topic": "Financial Reporting and Analysis",
+      "subtopic": "Subtopic 1",
+      "difficulty": "medium",
+      "references": "CFA Financial Reporting and Analysis, Reading 1",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 20,
+      "question": "Sample question 20 for Financial Reporting and Analysis: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Financial Reporting and Analysis",
+        "B. Incorrect choice B for Financial Reporting and Analysis",
+        "C. Correct choice C for Financial Reporting and Analysis",
+        "D. Plausible but incorrect choice D for Financial Reporting and Analysis"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Financial Reporting and Analysis based on CFA curriculum guidance.",
+      "topic": "Financial Reporting and Analysis",
+      "subtopic": "Subtopic 2",
+      "difficulty": "medium",
+      "references": "CFA Financial Reporting and Analysis, Reading 2",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 21,
+      "question": "Sample question 21 for Financial Reporting and Analysis: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Financial Reporting and Analysis",
+        "B. Incorrect choice B for Financial Reporting and Analysis",
+        "C. Correct choice C for Financial Reporting and Analysis",
+        "D. Plausible but incorrect choice D for Financial Reporting and Analysis"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Financial Reporting and Analysis based on CFA curriculum guidance.",
+      "topic": "Financial Reporting and Analysis",
+      "subtopic": "Subtopic 3",
+      "difficulty": "medium",
+      "references": "CFA Financial Reporting and Analysis, Reading 3",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 22,
+      "question": "Sample question 22 for Financial Reporting and Analysis: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Financial Reporting and Analysis",
+        "B. Incorrect choice B for Financial Reporting and Analysis",
+        "C. Correct choice C for Financial Reporting and Analysis",
+        "D. Plausible but incorrect choice D for Financial Reporting and Analysis"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Financial Reporting and Analysis based on CFA curriculum guidance.",
+      "topic": "Financial Reporting and Analysis",
+      "subtopic": "Subtopic 4",
+      "difficulty": "medium",
+      "references": "CFA Financial Reporting and Analysis, Reading 4",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 23,
+      "question": "Sample question 23 for Financial Reporting and Analysis: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Financial Reporting and Analysis",
+        "B. Incorrect choice B for Financial Reporting and Analysis",
+        "C. Correct choice C for Financial Reporting and Analysis",
+        "D. Plausible but incorrect choice D for Financial Reporting and Analysis"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Financial Reporting and Analysis based on CFA curriculum guidance.",
+      "topic": "Financial Reporting and Analysis",
+      "subtopic": "Subtopic 5",
+      "difficulty": "medium",
+      "references": "CFA Financial Reporting and Analysis, Reading 5",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 24,
+      "question": "Sample question 24 for Financial Reporting and Analysis: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Financial Reporting and Analysis",
+        "B. Incorrect choice B for Financial Reporting and Analysis",
+        "C. Correct choice C for Financial Reporting and Analysis",
+        "D. Plausible but incorrect choice D for Financial Reporting and Analysis"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Financial Reporting and Analysis based on CFA curriculum guidance.",
+      "topic": "Financial Reporting and Analysis",
+      "subtopic": "Subtopic 6",
+      "difficulty": "medium",
+      "references": "CFA Financial Reporting and Analysis, Reading 6",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 25,
+      "question": "Sample question 25 for Financial Reporting and Analysis: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Financial Reporting and Analysis",
+        "B. Incorrect choice B for Financial Reporting and Analysis",
+        "C. Correct choice C for Financial Reporting and Analysis",
+        "D. Plausible but incorrect choice D for Financial Reporting and Analysis"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Financial Reporting and Analysis based on CFA curriculum guidance.",
+      "topic": "Financial Reporting and Analysis",
+      "subtopic": "Subtopic 7",
+      "difficulty": "medium",
+      "references": "CFA Financial Reporting and Analysis, Reading 7",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 26,
+      "question": "Sample question 26 for Financial Reporting and Analysis: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Financial Reporting and Analysis",
+        "B. Incorrect choice B for Financial Reporting and Analysis",
+        "C. Correct choice C for Financial Reporting and Analysis",
+        "D. Plausible but incorrect choice D for Financial Reporting and Analysis"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Financial Reporting and Analysis based on CFA curriculum guidance.",
+      "topic": "Financial Reporting and Analysis",
+      "subtopic": "Subtopic 8",
+      "difficulty": "medium",
+      "references": "CFA Financial Reporting and Analysis, Reading 8",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 27,
+      "question": "Sample question 27 for Corporate Finance: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Corporate Finance",
+        "B. Incorrect choice B for Corporate Finance",
+        "C. Correct choice C for Corporate Finance",
+        "D. Plausible but incorrect choice D for Corporate Finance"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Corporate Finance based on CFA curriculum guidance.",
+      "topic": "Corporate Finance",
+      "subtopic": "Subtopic 1",
+      "difficulty": "medium",
+      "references": "CFA Corporate Finance, Reading 1",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 28,
+      "question": "Sample question 28 for Corporate Finance: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Corporate Finance",
+        "B. Incorrect choice B for Corporate Finance",
+        "C. Correct choice C for Corporate Finance",
+        "D. Plausible but incorrect choice D for Corporate Finance"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Corporate Finance based on CFA curriculum guidance.",
+      "topic": "Corporate Finance",
+      "subtopic": "Subtopic 2",
+      "difficulty": "medium",
+      "references": "CFA Corporate Finance, Reading 2",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 29,
+      "question": "Sample question 29 for Corporate Finance: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Corporate Finance",
+        "B. Incorrect choice B for Corporate Finance",
+        "C. Correct choice C for Corporate Finance",
+        "D. Plausible but incorrect choice D for Corporate Finance"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Corporate Finance based on CFA curriculum guidance.",
+      "topic": "Corporate Finance",
+      "subtopic": "Subtopic 3",
+      "difficulty": "medium",
+      "references": "CFA Corporate Finance, Reading 3",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 30,
+      "question": "Sample question 30 for Corporate Finance: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Corporate Finance",
+        "B. Incorrect choice B for Corporate Finance",
+        "C. Correct choice C for Corporate Finance",
+        "D. Plausible but incorrect choice D for Corporate Finance"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Corporate Finance based on CFA curriculum guidance.",
+      "topic": "Corporate Finance",
+      "subtopic": "Subtopic 4",
+      "difficulty": "medium",
+      "references": "CFA Corporate Finance, Reading 4",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 31,
+      "question": "Sample question 31 for Corporate Finance: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Corporate Finance",
+        "B. Incorrect choice B for Corporate Finance",
+        "C. Correct choice C for Corporate Finance",
+        "D. Plausible but incorrect choice D for Corporate Finance"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Corporate Finance based on CFA curriculum guidance.",
+      "topic": "Corporate Finance",
+      "subtopic": "Subtopic 5",
+      "difficulty": "medium",
+      "references": "CFA Corporate Finance, Reading 5",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 32,
+      "question": "Sample question 32 for Equity Investments: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Equity Investments",
+        "B. Incorrect choice B for Equity Investments",
+        "C. Correct choice C for Equity Investments",
+        "D. Plausible but incorrect choice D for Equity Investments"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Equity Investments based on CFA curriculum guidance.",
+      "topic": "Equity Investments",
+      "subtopic": "Subtopic 1",
+      "difficulty": "medium",
+      "references": "CFA Equity Investments, Reading 1",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 33,
+      "question": "Sample question 33 for Equity Investments: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Equity Investments",
+        "B. Incorrect choice B for Equity Investments",
+        "C. Correct choice C for Equity Investments",
+        "D. Plausible but incorrect choice D for Equity Investments"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Equity Investments based on CFA curriculum guidance.",
+      "topic": "Equity Investments",
+      "subtopic": "Subtopic 2",
+      "difficulty": "medium",
+      "references": "CFA Equity Investments, Reading 2",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 34,
+      "question": "Sample question 34 for Equity Investments: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Equity Investments",
+        "B. Incorrect choice B for Equity Investments",
+        "C. Correct choice C for Equity Investments",
+        "D. Plausible but incorrect choice D for Equity Investments"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Equity Investments based on CFA curriculum guidance.",
+      "topic": "Equity Investments",
+      "subtopic": "Subtopic 3",
+      "difficulty": "medium",
+      "references": "CFA Equity Investments, Reading 3",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 35,
+      "question": "Sample question 35 for Equity Investments: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Equity Investments",
+        "B. Incorrect choice B for Equity Investments",
+        "C. Correct choice C for Equity Investments",
+        "D. Plausible but incorrect choice D for Equity Investments"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Equity Investments based on CFA curriculum guidance.",
+      "topic": "Equity Investments",
+      "subtopic": "Subtopic 4",
+      "difficulty": "medium",
+      "references": "CFA Equity Investments, Reading 4",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 36,
+      "question": "Sample question 36 for Equity Investments: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Equity Investments",
+        "B. Incorrect choice B for Equity Investments",
+        "C. Correct choice C for Equity Investments",
+        "D. Plausible but incorrect choice D for Equity Investments"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Equity Investments based on CFA curriculum guidance.",
+      "topic": "Equity Investments",
+      "subtopic": "Subtopic 5",
+      "difficulty": "medium",
+      "references": "CFA Equity Investments, Reading 5",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 37,
+      "question": "Sample question 37 for Equity Investments: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Equity Investments",
+        "B. Incorrect choice B for Equity Investments",
+        "C. Correct choice C for Equity Investments",
+        "D. Plausible but incorrect choice D for Equity Investments"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Equity Investments based on CFA curriculum guidance.",
+      "topic": "Equity Investments",
+      "subtopic": "Subtopic 6",
+      "difficulty": "medium",
+      "references": "CFA Equity Investments, Reading 6",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 38,
+      "question": "Sample question 38 for Fixed Income: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Fixed Income",
+        "B. Incorrect choice B for Fixed Income",
+        "C. Correct choice C for Fixed Income",
+        "D. Plausible but incorrect choice D for Fixed Income"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Fixed Income based on CFA curriculum guidance.",
+      "topic": "Fixed Income",
+      "subtopic": "Subtopic 1",
+      "difficulty": "medium",
+      "references": "CFA Fixed Income, Reading 1",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 39,
+      "question": "Sample question 39 for Fixed Income: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Fixed Income",
+        "B. Incorrect choice B for Fixed Income",
+        "C. Correct choice C for Fixed Income",
+        "D. Plausible but incorrect choice D for Fixed Income"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Fixed Income based on CFA curriculum guidance.",
+      "topic": "Fixed Income",
+      "subtopic": "Subtopic 2",
+      "difficulty": "medium",
+      "references": "CFA Fixed Income, Reading 2",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 40,
+      "question": "Sample question 40 for Fixed Income: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Fixed Income",
+        "B. Incorrect choice B for Fixed Income",
+        "C. Correct choice C for Fixed Income",
+        "D. Plausible but incorrect choice D for Fixed Income"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Fixed Income based on CFA curriculum guidance.",
+      "topic": "Fixed Income",
+      "subtopic": "Subtopic 3",
+      "difficulty": "medium",
+      "references": "CFA Fixed Income, Reading 3",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 41,
+      "question": "Sample question 41 for Fixed Income: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Fixed Income",
+        "B. Incorrect choice B for Fixed Income",
+        "C. Correct choice C for Fixed Income",
+        "D. Plausible but incorrect choice D for Fixed Income"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Fixed Income based on CFA curriculum guidance.",
+      "topic": "Fixed Income",
+      "subtopic": "Subtopic 4",
+      "difficulty": "medium",
+      "references": "CFA Fixed Income, Reading 4",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 42,
+      "question": "Sample question 42 for Fixed Income: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Fixed Income",
+        "B. Incorrect choice B for Fixed Income",
+        "C. Correct choice C for Fixed Income",
+        "D. Plausible but incorrect choice D for Fixed Income"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Fixed Income based on CFA curriculum guidance.",
+      "topic": "Fixed Income",
+      "subtopic": "Subtopic 5",
+      "difficulty": "medium",
+      "references": "CFA Fixed Income, Reading 5",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 43,
+      "question": "Sample question 43 for Fixed Income: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Fixed Income",
+        "B. Incorrect choice B for Fixed Income",
+        "C. Correct choice C for Fixed Income",
+        "D. Plausible but incorrect choice D for Fixed Income"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Fixed Income based on CFA curriculum guidance.",
+      "topic": "Fixed Income",
+      "subtopic": "Subtopic 6",
+      "difficulty": "medium",
+      "references": "CFA Fixed Income, Reading 6",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 44,
+      "question": "Sample question 44 for Derivatives: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Derivatives",
+        "B. Incorrect choice B for Derivatives",
+        "C. Correct choice C for Derivatives",
+        "D. Plausible but incorrect choice D for Derivatives"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Derivatives based on CFA curriculum guidance.",
+      "topic": "Derivatives",
+      "subtopic": "Subtopic 1",
+      "difficulty": "medium",
+      "references": "CFA Derivatives, Reading 1",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 45,
+      "question": "Sample question 45 for Derivatives: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Derivatives",
+        "B. Incorrect choice B for Derivatives",
+        "C. Correct choice C for Derivatives",
+        "D. Plausible but incorrect choice D for Derivatives"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Derivatives based on CFA curriculum guidance.",
+      "topic": "Derivatives",
+      "subtopic": "Subtopic 2",
+      "difficulty": "medium",
+      "references": "CFA Derivatives, Reading 2",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 46,
+      "question": "Sample question 46 for Derivatives: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Derivatives",
+        "B. Incorrect choice B for Derivatives",
+        "C. Correct choice C for Derivatives",
+        "D. Plausible but incorrect choice D for Derivatives"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Derivatives based on CFA curriculum guidance.",
+      "topic": "Derivatives",
+      "subtopic": "Subtopic 3",
+      "difficulty": "medium",
+      "references": "CFA Derivatives, Reading 3",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 47,
+      "question": "Sample question 47 for Alternative Investments: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Alternative Investments",
+        "B. Incorrect choice B for Alternative Investments",
+        "C. Correct choice C for Alternative Investments",
+        "D. Plausible but incorrect choice D for Alternative Investments"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Alternative Investments based on CFA curriculum guidance.",
+      "topic": "Alternative Investments",
+      "subtopic": "Subtopic 1",
+      "difficulty": "medium",
+      "references": "CFA Alternative Investments, Reading 1",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 48,
+      "question": "Sample question 48 for Alternative Investments: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Alternative Investments",
+        "B. Incorrect choice B for Alternative Investments",
+        "C. Correct choice C for Alternative Investments",
+        "D. Plausible but incorrect choice D for Alternative Investments"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Alternative Investments based on CFA curriculum guidance.",
+      "topic": "Alternative Investments",
+      "subtopic": "Subtopic 2",
+      "difficulty": "medium",
+      "references": "CFA Alternative Investments, Reading 2",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 49,
+      "question": "Sample question 49 for Alternative Investments: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Alternative Investments",
+        "B. Incorrect choice B for Alternative Investments",
+        "C. Correct choice C for Alternative Investments",
+        "D. Plausible but incorrect choice D for Alternative Investments"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Alternative Investments based on CFA curriculum guidance.",
+      "topic": "Alternative Investments",
+      "subtopic": "Subtopic 3",
+      "difficulty": "medium",
+      "references": "CFA Alternative Investments, Reading 3",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 50,
+      "question": "Sample question 50 for Portfolio Management: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Portfolio Management",
+        "B. Incorrect choice B for Portfolio Management",
+        "C. Correct choice C for Portfolio Management",
+        "D. Plausible but incorrect choice D for Portfolio Management"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Portfolio Management based on CFA curriculum guidance.",
+      "topic": "Portfolio Management",
+      "subtopic": "Subtopic 1",
+      "difficulty": "medium",
+      "references": "CFA Portfolio Management, Reading 1",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 51,
+      "question": "Sample question 51 for Portfolio Management: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Portfolio Management",
+        "B. Incorrect choice B for Portfolio Management",
+        "C. Correct choice C for Portfolio Management",
+        "D. Plausible but incorrect choice D for Portfolio Management"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Portfolio Management based on CFA curriculum guidance.",
+      "topic": "Portfolio Management",
+      "subtopic": "Subtopic 2",
+      "difficulty": "medium",
+      "references": "CFA Portfolio Management, Reading 2",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 52,
+      "question": "Sample question 52 for Portfolio Management: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Portfolio Management",
+        "B. Incorrect choice B for Portfolio Management",
+        "C. Correct choice C for Portfolio Management",
+        "D. Plausible but incorrect choice D for Portfolio Management"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Portfolio Management based on CFA curriculum guidance.",
+      "topic": "Portfolio Management",
+      "subtopic": "Subtopic 3",
+      "difficulty": "medium",
+      "references": "CFA Portfolio Management, Reading 3",
       "question_type": "conceptual",
       "formula": null,
       "image": null,
@@ -60,17 +1335,17 @@
       },
       {
         "name": "EAR",
-        "formula": "(1 + r/n)^n - 1"
+        "formula": "(1 + r/n)\u207f - 1"
       }
     ],
     "Fixed Income": [
       {
         "name": "Bond Price",
-        "formula": "\u2211(C/(1+r)^t) + FV/(1+r)^n"
+        "formula": "\u2211(C/(1+r)\u1d57) + FV/(1+r)\u207f"
       },
       {
-        "name": "Duration",
-        "formula": "\u0394P/P \u2248 -D \u00d7 \u0394y"
+        "name": "Current Yield",
+        "formula": "Annual Coupon / Bond Price"
       }
     ]
   },
