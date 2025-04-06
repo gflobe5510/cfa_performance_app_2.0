@@ -54,7 +54,7 @@ if mode == "Practice":
     else:
         q = random.choice(filtered)
         st.subheader(q["question"])
-        user_choice = st.radio("Select your answer:", q["options"], index=None)
+        user_choice = st.radio("Select your answer:", q["options"], index=None, key="practice_choice")
         if st.button("Submit"):
             is_correct = user_choice and user_choice.split(".")[0] == q["answer"]
             st.success("Correct! ✅" if is_correct else f"Incorrect ❌. Correct answer: {q['answer']}")
@@ -66,21 +66,21 @@ if mode == "Practice":
 
 # Mock Exam Mode
 elif mode == "Mock Exam":
-    st.header("🧪 Timed Mock Exam (10 Questions)")
+    st.header("🧪 Timed Mock Exam (50 Questions)")
     if "exam_qs" not in st.session_state:
-        st.session_state.exam_qs = random.sample(questions, 10)
+        st.session_state.exam_qs = random.sample(questions, min(50, len(questions)))
         st.session_state.score = 0
-        st.session_state.answered = [None] * 10
+        st.session_state.answered = [None] * len(st.session_state.exam_qs)
 
     for i, q in enumerate(st.session_state.exam_qs):
         st.subheader(f"Q{i + 1}: {q['question']}")
-        user_choice = st.radio(f"Your Answer for Q{i + 1}:", q["options"], key=f"mock_{i}", index=None)
+        user_choice = st.radio(f"Your Answer for Q{i + 1}:", q["options"], index=None, key=f"mock_{i}")
         st.session_state.answered[i] = user_choice
 
     if st.button("Finish Exam"):
         score = sum(1 for i, q in enumerate(st.session_state.exam_qs)
                     if st.session_state.answered[i] and st.session_state.answered[i].split(".")[0] == q["answer"])
-        st.success(f"You scored {score}/10")
+        st.success(f"You scored {score}/{len(st.session_state.exam_qs)}")
         for i, q in enumerate(st.session_state.exam_qs):
             c = db_conn.cursor()
             is_correct = st.session_state.answered[i] and st.session_state.answered[i].split(".")[0] == q["answer"]
