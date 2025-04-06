@@ -36,11 +36,11 @@
         "D. Plausible but incorrect choice D for Ethics"
       ],
       "answer": "C",
-      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance.",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance. According to the CFA curriculum, ethical behavior is defined as... [provide more detailed explanation].",
       "topic": "Ethics",
       "subtopic": "Subtopic 1",
       "difficulty": "medium",
-      "references": "CFA Ethics, Reading 1",
+      "references": "CFA Ethics, Reading 1, Page 45",
       "question_type": "conceptual",
       "formula": null,
       "image": null,
@@ -61,11 +61,11 @@
         "D. Plausible but incorrect choice D for Ethics"
       ],
       "answer": "C",
-      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance.",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance. According to the CFA curriculum, ethical behavior is defined as... [provide more detailed explanation].",
       "topic": "Ethics",
       "subtopic": "Subtopic 2",
       "difficulty": "medium",
-      "references": "CFA Ethics, Reading 2",
+      "references": "CFA Ethics, Reading 2, Page 50",
       "question_type": "conceptual",
       "formula": null,
       "image": null,
@@ -75,6 +75,209 @@
         "time_spent_seconds": 0,
         "flagged": false
       }
+    },
+    {
+      "id": 3,
+      "question": "Sample question 3 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance. According to the CFA curriculum, ethical behavior is defined as... [provide more detailed explanation].",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 3",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 3, Page 55",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 4,
+      "question": "Sample question 4 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance. According to the CFA curriculum, ethical behavior is defined as... [provide more detailed explanation].",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 4",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 4, Page 60",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 5,
+      "question": "Sample question 5 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance. According to the CFA curriculum, ethical behavior is defined as... [provide more detailed explanation].",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 5",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 5, Page 65",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 6,
+      "question": "Sample question 6 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance. According to the CFA curriculum, ethical behavior is defined as... [provide more detailed explanation].",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 6",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 6, Page 70",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 7,
+      "question": "Sample question 7 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance. According to the CFA curriculum, ethical behavior is defined as... [provide more detailed explanation].",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 7",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 7, Page 75",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 8,
+      "question": "Sample question 8 for Ethics: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Ethics",
+        "B. Incorrect choice B for Ethics",
+        "C. Correct choice C for Ethics",
+        "D. Plausible but incorrect choice D for Ethics"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Ethics based on CFA curriculum guidance. According to the CFA curriculum, ethical behavior is defined as... [provide more detailed explanation].",
+      "topic": "Ethics",
+      "subtopic": "Subtopic 8",
+      "difficulty": "medium",
+      "references": "CFA Ethics, Reading 8, Page 80",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 9,
+      "question": "Sample question 9 for Quantitative Methods: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Quantitative Methods",
+        "B. Incorrect choice B for Quantitative Methods",
+        "C. Correct choice C for Quantitative Methods",
+        "D. Plausible but incorrect choice D for Quantitative Methods"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Quantitative Methods based on CFA curriculum guidance. According to the CFA curriculum, quantitative methods are defined as... [provide more detailed explanation].",
+      "topic": "Quantitative Methods",
+      "subtopic": "Subtopic 1",
+      "difficulty": "medium",
+      "references": "CFA Quantitative Methods, Reading 1, Page 45",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    {
+      "id": 10,
+      "question": "Sample question 10 for Quantitative Methods: What is the most appropriate action or concept?",
+      "options": [
+        "A. Incorrect choice A for Quantitative Methods",
+        "B. Incorrect choice B for Quantitative Methods",
+        "C. Correct choice C for Quantitative Methods",
+        "D. Plausible but incorrect choice D for Quantitative Methods"
+      ],
+      "answer": "C",
+      "explanation": "Option C is correct for Quantitative Methods based on CFA curriculum guidance. According to the CFA curriculum, quantitative methods are defined as... [provide more detailed explanation].",
+      "topic": "Quantitative Methods",
+      "subtopic": "Subtopic 2",
+      "difficulty": "medium",
+      "references": "CFA Quantitative Methods, Reading 2, Page 50",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    }
+  ]
+}
     },
     {
       "id": 3,
