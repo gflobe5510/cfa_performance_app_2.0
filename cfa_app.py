@@ -3,8 +3,7 @@ import json
 import random
 import os
 import sqlite3
-import pandas as pd  # <- ADD THIS!
-
+import pandas as pd
 
 st.set_page_config(page_title="CFA Study App", layout="wide")
 st.title("📊 CFA Practice App 2.0")
@@ -57,7 +56,7 @@ if mode == "Practice":
         st.subheader(q["question"])
         user_choice = st.radio("Select your answer:", q["options"], index=None)
         if st.button("Submit"):
-            is_correct = user_choice and user_choice.startswith(q["answer"])
+            is_correct = user_choice and user_choice.split(".")[0] == q["answer"]
             st.success("Correct! ✅" if is_correct else f"Incorrect ❌. Correct answer: {q['answer']}")
             st.markdown(f"**Explanation**: {q['explanation']}")
             c = db_conn.cursor()
@@ -68,29 +67,35 @@ if mode == "Practice":
 # Mock Exam Mode
 elif mode == "Mock Exam":
     st.header("🧪 Timed Mock Exam (10 Questions)")
-    exam_qs = random.sample(questions, 10)
-    score = 0
+    if "exam_qs" not in st.session_state:
+        st.session_state.exam_qs = random.sample(questions, 10)
+        st.session_state.score = 0
+        st.session_state.answered = [None] * 10
 
-    for i, q in enumerate(exam_qs):
+    for i, q in enumerate(st.session_state.exam_qs):
         st.subheader(f"Q{i + 1}: {q['question']}")
         user_choice = st.radio(f"Your Answer for Q{i + 1}:", q["options"], key=f"mock_{i}", index=None)
-        if user_choice and user_choice.startswith(q["answer"]):
-            score += 1
+        st.session_state.answered[i] = user_choice
 
     if st.button("Finish Exam"):
+        score = sum(1 for i, q in enumerate(st.session_state.exam_qs)
+                    if st.session_state.answered[i] and st.session_state.answered[i].split(".")[0] == q["answer"])
         st.success(f"You scored {score}/10")
-        for q in exam_qs:
+        for i, q in enumerate(st.session_state.exam_qs):
             c = db_conn.cursor()
+            is_correct = st.session_state.answered[i] and st.session_state.answered[i].split(".")[0] == q["answer"]
             c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
-                      (username, q["id"], None))
+                      (username, q["id"], int(bool(is_correct))))
         db_conn.commit()
+        del st.session_state.exam_qs
+        del st.session_state.answered
 
 # Progress View
 elif mode == "Progress":
     st.header("📈 Progress Tracker")
     df = None
     try:
-        df = st.cache_data(lambda: pd.read_sql_query(f"SELECT * FROM results WHERE username = ?", db_conn, params=(username,)))()
+        df = pd.read_sql_query("SELECT * FROM results WHERE username = ?", db_conn, params=(username,))
     except:
         st.warning("No progress data yet.")
 
