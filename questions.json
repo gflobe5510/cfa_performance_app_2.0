@@ -1,8 +1,8 @@
 {
   "exam": "CFA Level 1",
   "metadata": {
-    "version": "1.2",
-    "last_updated": "2023-11-15",
+    "version": "1.3",
+    "last_updated": "2023-11-16",
     "topic_weights": {
       "Ethics": 15,
       "Quantitative Methods": 10,
@@ -18,115 +18,298 @@
   },
   "user_tracking": {
     "enabled": true,
-    "metrics": [
-      "time_spent_per_question",
-      "attempt_count",
-      "correctness_rate"
-    ]
+    "metrics": ["attempts", "time_spent", "correctness", "flagged"]
   },
   "questions": [
-    /* Original 10 questions from previous example... */
-    
-    /* NEW QUESTIONS START HERE */
+    /* --- Ethics (8 questions) --- */
     {
-      "id": 11,
-      "question": "According to the GIPS standards, which of the following is REQUIRED when presenting composite performance?",
+      "id": 1,
+      "question": "Under Standard II(A) - Material Nonpublic Information, which action violates the Code?",
       "options": [
-        "A. Including all actual fee-paying discretionary portfolios",
-        "B. Excluding portfolios with less than $1M in assets",
-        "C. Using trade-date accounting for all composites",
-        "D. Presenting gross-of-fee returns only"
-      ],
-      "answer": "A",
-      "explanation": "GIPS requires all actual, fee-paying, discretionary portfolios to be included in at least one composite. Trade-date accounting is recommended but not required, and both gross and net returns must be presented.",
-      "topic": "Ethics",
-      "subtopic": "GIPS",
-      "difficulty": "hard",
-      "references": "GIPS Standards 2020, Section 5.1",
-      "question_type": "conceptual",
-      "image": null
-    },
-    {
-      "id": 12,
-      "question": "A hypothesis test with a p-value of 0.03 and a significance level of 0.05 would lead to:",
-      "options": [
-        "A. Rejection of the null hypothesis",
-        "B. Failure to reject the null hypothesis",
-        "C. Acceptance of the alternative hypothesis",
-        "D. Inconclusive results"
-      ],
-      "answer": "A",
-      "explanation": "When p-value (0.03) < significance level (0.05), we reject the null hypothesis. Note that we never 'accept' the alternative (we only fail to reject the null).",
-      "topic": "Quantitative Methods",
-      "subtopic": "Hypothesis Testing",
-      "difficulty": "medium",
-      "references": "CFA Curriculum Quant, Reading 7",
-      "question_type": "conceptual",
-      "formula": "p-value < α → Reject H₀"
-    },
-    {
-      "id": 13,
-      "question": "The Fisher effect suggests that an increase in expected inflation will lead to:",
-      "options": [
-        "A. Higher nominal interest rates",
-        "B. Lower real interest rates",
-        "C. A steeper yield curve",
-        "D. Higher bond prices"
-      ],
-      "answer": "A",
-      "explanation": "Fisher formula: Nominal rate ≈ Real rate + Expected inflation. If inflation expectations rise, nominal rates increase to compensate lenders.",
-      "topic": "Economics",
-      "subtopic": "Macroeconomic Theory",
-      "difficulty": "easy",
-      "references": "CFA Curriculum Econ, Reading 16",
-      "question_type": "conceptual",
-      "formula": "i ≈ r + πᵉ"
-    },
-    {
-      "id": 14,
-      "question": "Calculate the diluted EPS given:\n- Net income: $10M\n- Weighted avg shares: 5M\n- Convertible bonds: $2M (convertible to 500K shares)\n- Tax rate: 30%",
-      "options": [
-        "A. $1.67",
-        "B. $1.82",
-        "C. $2.00",
-        "D. $2.18"
+        "A. Using an industry report for analysis",
+        "B. Trading on a rumor later confirmed by filings",
+        "C. Declining insider information",
+        "D. Analyzing public 10-K filings"
       ],
       "answer": "B",
-      "explanation": "Diluted EPS = (Net income + After-tax interest on convertibles) / (Shares + Convertible shares) = ($10M + $2M*0.7) / (5M + 0.5M) = $11.4M / 5.5M = $1.82.",
-      "topic": "Financial Reporting and Analysis",
-      "subtopic": "EPS Calculations",
-      "difficulty": "hard",
-      "references": "CFA Curriculum FRA, Reading 22",
-      "question_type": "calculation",
-      "formula": "Diluted EPS = (NI + (Convertible Interest × (1 - t))) / (Shares + Convertible Shares)"
+      "explanation": "B violates Standard II(A) because trading on rumors constitutes using material nonpublic information, even if later confirmed.",
+      "topic": "Ethics",
+      "subtopic": "Standard II(A)",
+      "difficulty": "medium",
+      "references": "CFA Standards, p. 32",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
     },
+    /* Add 7 more Ethics questions... */
+
+    /* --- Quantitative Methods (5 questions) --- */
     {
-      "id": 15,
-      "question": "Which capital budgeting technique is MOST likely to conflict with NPV?",
+      "id": 9,
+      "question": "An investor deposits $10,000 at 5% annual interest compounded quarterly. The value after 3 years is closest to:",
       "options": [
-        "A. IRR",
-        "B. Payback period",
-        "C. Discounted payback period",
-        "D. Profitability index"
+        "A. $11,500",
+        "B. $11,607",
+        "C. $11,800",
+        "D. $12,000"
       ],
-      "answer": "A",
-      "explanation": "IRR may conflict with NPV for mutually exclusive projects with differing scales/timing (due to reinvestment rate assumptions). Payback methods ignore cash flows beyond the cutoff.",
+      "answer": "B",
+      "explanation": "FV = PV × (1 + r/n)^(n×t) = $10,000 × (1 + 0.05/4)^(4×3) ≈ $11,607.",
+      "topic": "Quantitative Methods",
+      "subtopic": "Time Value of Money",
+      "difficulty": "easy",
+      "references": "CFA Quant, Reading 5",
+      "question_type": "calculation",
+      "formula": "FV = PV × (1 + r/n)^(n×t)",
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    /* Add 4 more Quant questions... */
+
+    /* --- Economics (5 questions) --- */
+    {
+      "id": 14,
+      "question": "Which is LEAST LIKELY a characteristic of perfect competition?",
+      "options": [
+        "A. Price takers",
+        "B. Product differentiation",
+        "C. No barriers to entry",
+        "D. Normal profit in long run"
+      ],
+      "answer": "B",
+      "explanation": "Perfect competition requires homogeneous (undifferentiated) products.",
+      "topic": "Economics",
+      "subtopic": "Market Structures",
+      "difficulty": "medium",
+      "references": "CFA Econ, Reading 13",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": "market_structures.png",
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    /* Add 4 more Econ questions... */
+
+    /* --- FRA (8 questions) --- */
+    {
+      "id": 19,
+      "question": "A company using LIFO during inflation will report:",
+      "options": [
+        "A. Higher COGS & higher inventory than FIFO",
+        "B. Higher COGS & lower inventory than FIFO",
+        "C. Lower COGS & higher inventory than FIFO",
+        "D. Lower COGS & lower inventory than FIFO"
+      ],
+      "answer": "B",
+      "explanation": "LIFO COGS reflects recent higher prices; inventory retains older lower costs.",
+      "topic": "Financial Reporting and Analysis",
+      "subtopic": "Inventory Accounting",
+      "difficulty": "hard",
+      "references": "CFA FRA, Reading 20",
+      "question_type": "analytical",
+      "formula": null,
+      "image": "lifo_fifo_comparison.png",
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    /* Add 7 more FRA questions... */
+
+    /* --- Corporate Finance (5 questions) --- */
+    {
+      "id": 27,
+      "question": "The optimal capital budget occurs where MCC intersects:",
+      "options": [
+        "A. ROE",
+        "B. IOS",
+        "C. WACC",
+        "D. IRR curve"
+      ],
+      "answer": "B",
+      "explanation": "IOS ranks projects by IRR. Optimal budget is where MCC (rising capital costs) meets IOS (declining returns).",
       "topic": "Corporate Finance",
       "subtopic": "Capital Budgeting",
       "difficulty": "medium",
-      "references": "CFA Curriculum Corp Fin, Reading 30",
-      "question_type": "analytical",
-      "image": "conflicting_projects_graph.png"
+      "references": "CFA Corp Fin, Reading 30",
+      "question_type": "conceptual",
+      "formula": null,
+      "image": "mcc_ios_intersect.png",
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
     },
-    /* Add 15 more questions following the same pattern... */
+    /* Add 4 more Corp Fin questions... */
+
+    /* --- Equity (6 questions) --- */
+    {
+      "id": 32,
+      "question": "Which valuation model is BEST for a stable dividend-paying company?",
+      "options": [
+        "A. FCFE",
+        "B. Gordon Growth Model",
+        "C. Residual Income",
+        "D. Price Multiples"
+      ],
+      "answer": "B",
+      "explanation": "Gordon Growth (DDM) is ideal for stable dividends. FCFE suits non-dividend payers; residual income works for erratic dividends.",
+      "topic": "Equity Investments",
+      "subtopic": "Valuation Models",
+      "difficulty": "easy",
+      "references": "CFA Equity, Reading 35",
+      "question_type": "analytical",
+      "formula": "V₀ = D₁ / (r - g)",
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    /* Add 5 more Equity questions... */
+
+    /* --- Fixed Income (6 questions) --- */
+    {
+      "id": 38,
+      "question": "A 5-year 6% annual coupon bond yielding 5% is priced at:",
+      "options": [
+        "A. 95.00",
+        "B. 100.00",
+        "C. 104.33",
+        "D. 108.65"
+      ],
+      "answer": "C",
+      "explanation": "N=5, I/Y=5, PMT=6, FV=100 → CPT PV = 104.33. Trades at premium (coupon > yield).",
+      "topic": "Fixed Income",
+      "subtopic": "Bond Pricing",
+      "difficulty": "medium",
+      "references": "CFA Fixed Income, Reading 42",
+      "question_type": "calculation",
+      "formula": "Bond Price = ∑(C/(1+r)ᵗ) + FV/(1+r)ⁿ",
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    /* Add 5 more Fixed Income questions... */
+
+    /* --- Derivatives (3 questions) --- */
+    {
+      "id": 44,
+      "question": "The maximum loss for a long put option position is:",
+      "options": [
+        "A. Unlimited",
+        "B. The strike price",
+        "C. The option premium",
+        "D. The underlying asset price"
+      ],
+      "answer": "C",
+      "explanation": "Long put losses are capped at the premium paid if the option expires worthless.",
+      "topic": "Derivatives",
+      "subtopic": "Options Risk",
+      "difficulty": "easy",
+      "references": "CFA Derivatives, Reading 47",
+      "question_type": "conceptual",
+      "formula": "Max Loss (Long Put) = Premium Paid",
+      "image": "option_payoffs.png",
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    /* Add 2 more Derivatives questions... */
+
+    /* --- Alternative Investments (3 questions) --- */
+    {
+      "id": 47,
+      "question": "Which alternative investment has the HIGHEST liquidity risk?",
+      "options": [
+        "A. REITs",
+        "B. Hedge Funds",
+        "C. Private Equity",
+        "D. Commodity ETFs"
+      ],
+      "answer": "C",
+      "explanation": "Private equity has lock-up periods of 5-10 years. REITs/ETFs trade publicly; hedge funds allow quarterly redemptions.",
+      "topic": "Alternative Investments",
+      "subtopic": "Liquidity",
+      "difficulty": "easy",
+      "references": "CFA Alts, Reading 50",
+      "question_type": "analytical",
+      "formula": null,
+      "image": null,
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    },
+    /* Add 2 more Alts questions... */
+
+    /* --- Portfolio Management (3 questions) --- */
+    {
+      "id": 50,
+      "question": "A steeper Capital Allocation Line (CAL) indicates:",
+      "options": [
+        "A. Higher risk-free rate",
+        "B. Lower portfolio return",
+        "C. Higher Sharpe ratio",
+        "D. Increased correlation"
+      ],
+      "answer": "C",
+      "explanation": "CAL slope = Sharpe ratio = (Rₚ - Rᶠ)/σₚ. Steeper slope means better risk-adjusted returns.",
+      "topic": "Portfolio Management",
+      "subtopic": "CAL",
+      "difficulty": "medium",
+      "references": "CFA PM, Reading 52",
+      "question_type": "conceptual",
+      "formula": "Sharpe Ratio = (Rₚ - Rᶠ) / σₚ",
+      "image": "capital_allocation_line.png",
+      "user_data": {
+        "attempts": 0,
+        "correct": null,
+        "time_spent_seconds": 0,
+        "flagged": false
+      }
+    }
+    /* Add 2 more PM questions... */
   ],
   "formula_sheet": {
     "Quantitative Methods": [
       {"name": "HPR", "formula": "(Ending Value - Beginning Value + Income) / Beginning Value"},
-      {"name": "Sharpe Ratio", "formula": "(Rₚ - Rᶠ) / σₚ"}
+      {"name": "EAR", "formula": "(1 + r/n)ⁿ - 1"}
     ],
     "Fixed Income": [
-      {"name": "Bond Price", "formula": "∑(C/(1+r)ᵗ) + FV/(1+r)ⁿ"}
+      {"name": "Bond Price", "formula": "∑(C/(1+r)ᵗ) + FV/(1+r)ⁿ"},
+      {"name": "Current Yield", "formula": "Annual Coupon / Bond Price"}
     ]
-  }
+  },
+  "image_directory": "assets/questions/images/"
 }
