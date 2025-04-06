@@ -1,9 +1,10 @@
-import pandas as pd
 import streamlit as st
 import json
 import random
 import os
 import sqlite3
+import pandas as pd  # <- ADD THIS!
+
 
 st.set_page_config(page_title="CFA Study App", layout="wide")
 st.title("📊 CFA Practice App 2.0")
