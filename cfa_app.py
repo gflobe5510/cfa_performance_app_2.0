@@ -12,16 +12,20 @@ st.set_page_config(page_title="CFA Study App", layout="wide")
 DB_PATH = "results.db"
 
 @st.cache_data
+@st.cache_data
 def load_questions():
     try:
         with open("questions.json", "r") as f:
-            questions = json.load(f)
-            if not questions:
-                st.warning("No questions found.")
+            data = json.load(f)
+            questions = data.get("questions", [])
+            if not isinstance(questions, list):
+                st.error("`questions` is not a list — check your JSON format.")
+                return []
             return questions
     except Exception as e:
         st.error(f"Failed to load questions.json: {e}")
         return []
+
 
 questions = load_questions()
 
