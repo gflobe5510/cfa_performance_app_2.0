@@ -1,0 +1,702 @@
+[
+  {
+    "question": "Question 1: This is a sample CFA-style question on Ethics. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Ethics",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Ethics",
+      "D. Another distractor from Ethics"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Ethics.",
+    "topic": "Ethics",
+    "difficulty": "easy",
+    "objective": "Test understanding of Ethics under easy conditions."
+  },
+  {
+    "question": "Question 2: This is a sample CFA-style question on Quant. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Quant",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Quant",
+      "D. Another distractor from Quant"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Quant.",
+    "topic": "Quant",
+    "difficulty": "medium",
+    "objective": "Test understanding of Quant under medium conditions."
+  },
+  {
+    "question": "Question 3: This is a sample CFA-style question on Econ. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Econ",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Econ",
+      "D. Another distractor from Econ"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Econ.",
+    "topic": "Econ",
+    "difficulty": "hard",
+    "objective": "Test understanding of Econ under hard conditions."
+  },
+  {
+    "question": "Question 4: This is a sample CFA-style question on FRA. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to FRA",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for FRA",
+      "D. Another distractor from FRA"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for FRA.",
+    "topic": "FRA",
+    "difficulty": "easy",
+    "objective": "Test understanding of FRA under easy conditions."
+  },
+  {
+    "question": "Question 5: This is a sample CFA-style question on Corp Fin. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Corp Fin",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Corp Fin",
+      "D. Another distractor from Corp Fin"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Corp Fin.",
+    "topic": "Corp Fin",
+    "difficulty": "medium",
+    "objective": "Test understanding of Corp Fin under medium conditions."
+  },
+  {
+    "question": "Question 6: This is a sample CFA-style question on Equity. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Equity",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Equity",
+      "D. Another distractor from Equity"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Equity.",
+    "topic": "Equity",
+    "difficulty": "hard",
+    "objective": "Test understanding of Equity under hard conditions."
+  },
+  {
+    "question": "Question 7: This is a sample CFA-style question on Fixed Inc. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Fixed Inc",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Fixed Inc",
+      "D. Another distractor from Fixed Inc"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Fixed Inc.",
+    "topic": "Fixed Inc",
+    "difficulty": "easy",
+    "objective": "Test understanding of Fixed Inc under easy conditions."
+  },
+  {
+    "question": "Question 8: This is a sample CFA-style question on Derivatives. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Derivatives",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Derivatives",
+      "D. Another distractor from Derivatives"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Derivatives.",
+    "topic": "Derivatives",
+    "difficulty": "medium",
+    "objective": "Test understanding of Derivatives under medium conditions."
+  },
+  {
+    "question": "Question 9: This is a sample CFA-style question on Alt Inv. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Alt Inv",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Alt Inv",
+      "D. Another distractor from Alt Inv"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Alt Inv.",
+    "topic": "Alt Inv",
+    "difficulty": "hard",
+    "objective": "Test understanding of Alt Inv under hard conditions."
+  },
+  {
+    "question": "Question 10: This is a sample CFA-style question on Portfolio. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Portfolio",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Portfolio",
+      "D. Another distractor from Portfolio"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Portfolio.",
+    "topic": "Portfolio",
+    "difficulty": "easy",
+    "objective": "Test understanding of Portfolio under easy conditions."
+  },
+  {
+    "question": "Question 11: This is a sample CFA-style question on Ethics. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Ethics",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Ethics",
+      "D. Another distractor from Ethics"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Ethics.",
+    "topic": "Ethics",
+    "difficulty": "medium",
+    "objective": "Test understanding of Ethics under medium conditions."
+  },
+  {
+    "question": "Question 12: This is a sample CFA-style question on Quant. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Quant",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Quant",
+      "D. Another distractor from Quant"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Quant.",
+    "topic": "Quant",
+    "difficulty": "hard",
+    "objective": "Test understanding of Quant under hard conditions."
+  },
+  {
+    "question": "Question 13: This is a sample CFA-style question on Econ. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Econ",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Econ",
+      "D. Another distractor from Econ"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Econ.",
+    "topic": "Econ",
+    "difficulty": "easy",
+    "objective": "Test understanding of Econ under easy conditions."
+  },
+  {
+    "question": "Question 14: This is a sample CFA-style question on FRA. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to FRA",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for FRA",
+      "D. Another distractor from FRA"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for FRA.",
+    "topic": "FRA",
+    "difficulty": "medium",
+    "objective": "Test understanding of FRA under medium conditions."
+  },
+  {
+    "question": "Question 15: This is a sample CFA-style question on Corp Fin. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Corp Fin",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Corp Fin",
+      "D. Another distractor from Corp Fin"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Corp Fin.",
+    "topic": "Corp Fin",
+    "difficulty": "hard",
+    "objective": "Test understanding of Corp Fin under hard conditions."
+  },
+  {
+    "question": "Question 16: This is a sample CFA-style question on Equity. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Equity",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Equity",
+      "D. Another distractor from Equity"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Equity.",
+    "topic": "Equity",
+    "difficulty": "easy",
+    "objective": "Test understanding of Equity under easy conditions."
+  },
+  {
+    "question": "Question 17: This is a sample CFA-style question on Fixed Inc. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Fixed Inc",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Fixed Inc",
+      "D. Another distractor from Fixed Inc"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Fixed Inc.",
+    "topic": "Fixed Inc",
+    "difficulty": "medium",
+    "objective": "Test understanding of Fixed Inc under medium conditions."
+  },
+  {
+    "question": "Question 18: This is a sample CFA-style question on Derivatives. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Derivatives",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Derivatives",
+      "D. Another distractor from Derivatives"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Derivatives.",
+    "topic": "Derivatives",
+    "difficulty": "hard",
+    "objective": "Test understanding of Derivatives under hard conditions."
+  },
+  {
+    "question": "Question 19: This is a sample CFA-style question on Alt Inv. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Alt Inv",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Alt Inv",
+      "D. Another distractor from Alt Inv"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Alt Inv.",
+    "topic": "Alt Inv",
+    "difficulty": "easy",
+    "objective": "Test understanding of Alt Inv under easy conditions."
+  },
+  {
+    "question": "Question 20: This is a sample CFA-style question on Portfolio. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Portfolio",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Portfolio",
+      "D. Another distractor from Portfolio"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Portfolio.",
+    "topic": "Portfolio",
+    "difficulty": "medium",
+    "objective": "Test understanding of Portfolio under medium conditions."
+  },
+  {
+    "question": "Question 21: This is a sample CFA-style question on Ethics. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Ethics",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Ethics",
+      "D. Another distractor from Ethics"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Ethics.",
+    "topic": "Ethics",
+    "difficulty": "hard",
+    "objective": "Test understanding of Ethics under hard conditions."
+  },
+  {
+    "question": "Question 22: This is a sample CFA-style question on Quant. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Quant",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Quant",
+      "D. Another distractor from Quant"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Quant.",
+    "topic": "Quant",
+    "difficulty": "easy",
+    "objective": "Test understanding of Quant under easy conditions."
+  },
+  {
+    "question": "Question 23: This is a sample CFA-style question on Econ. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Econ",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Econ",
+      "D. Another distractor from Econ"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Econ.",
+    "topic": "Econ",
+    "difficulty": "medium",
+    "objective": "Test understanding of Econ under medium conditions."
+  },
+  {
+    "question": "Question 24: This is a sample CFA-style question on FRA. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to FRA",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for FRA",
+      "D. Another distractor from FRA"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for FRA.",
+    "topic": "FRA",
+    "difficulty": "hard",
+    "objective": "Test understanding of FRA under hard conditions."
+  },
+  {
+    "question": "Question 25: This is a sample CFA-style question on Corp Fin. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Corp Fin",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Corp Fin",
+      "D. Another distractor from Corp Fin"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Corp Fin.",
+    "topic": "Corp Fin",
+    "difficulty": "easy",
+    "objective": "Test understanding of Corp Fin under easy conditions."
+  },
+  {
+    "question": "Question 26: This is a sample CFA-style question on Equity. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Equity",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Equity",
+      "D. Another distractor from Equity"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Equity.",
+    "topic": "Equity",
+    "difficulty": "medium",
+    "objective": "Test understanding of Equity under medium conditions."
+  },
+  {
+    "question": "Question 27: This is a sample CFA-style question on Fixed Inc. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Fixed Inc",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Fixed Inc",
+      "D. Another distractor from Fixed Inc"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Fixed Inc.",
+    "topic": "Fixed Inc",
+    "difficulty": "hard",
+    "objective": "Test understanding of Fixed Inc under hard conditions."
+  },
+  {
+    "question": "Question 28: This is a sample CFA-style question on Derivatives. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Derivatives",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Derivatives",
+      "D. Another distractor from Derivatives"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Derivatives.",
+    "topic": "Derivatives",
+    "difficulty": "easy",
+    "objective": "Test understanding of Derivatives under easy conditions."
+  },
+  {
+    "question": "Question 29: This is a sample CFA-style question on Alt Inv. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Alt Inv",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Alt Inv",
+      "D. Another distractor from Alt Inv"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Alt Inv.",
+    "topic": "Alt Inv",
+    "difficulty": "medium",
+    "objective": "Test understanding of Alt Inv under medium conditions."
+  },
+  {
+    "question": "Question 30: This is a sample CFA-style question on Portfolio. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Portfolio",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Portfolio",
+      "D. Another distractor from Portfolio"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Portfolio.",
+    "topic": "Portfolio",
+    "difficulty": "hard",
+    "objective": "Test understanding of Portfolio under hard conditions."
+  },
+  {
+    "question": "Question 31: This is a sample CFA-style question on Ethics. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Ethics",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Ethics",
+      "D. Another distractor from Ethics"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Ethics.",
+    "topic": "Ethics",
+    "difficulty": "easy",
+    "objective": "Test understanding of Ethics under easy conditions."
+  },
+  {
+    "question": "Question 32: This is a sample CFA-style question on Quant. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Quant",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Quant",
+      "D. Another distractor from Quant"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Quant.",
+    "topic": "Quant",
+    "difficulty": "medium",
+    "objective": "Test understanding of Quant under medium conditions."
+  },
+  {
+    "question": "Question 33: This is a sample CFA-style question on Econ. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Econ",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Econ",
+      "D. Another distractor from Econ"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Econ.",
+    "topic": "Econ",
+    "difficulty": "hard",
+    "objective": "Test understanding of Econ under hard conditions."
+  },
+  {
+    "question": "Question 34: This is a sample CFA-style question on FRA. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to FRA",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for FRA",
+      "D. Another distractor from FRA"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for FRA.",
+    "topic": "FRA",
+    "difficulty": "easy",
+    "objective": "Test understanding of FRA under easy conditions."
+  },
+  {
+    "question": "Question 35: This is a sample CFA-style question on Corp Fin. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Corp Fin",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Corp Fin",
+      "D. Another distractor from Corp Fin"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Corp Fin.",
+    "topic": "Corp Fin",
+    "difficulty": "medium",
+    "objective": "Test understanding of Corp Fin under medium conditions."
+  },
+  {
+    "question": "Question 36: This is a sample CFA-style question on Equity. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Equity",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Equity",
+      "D. Another distractor from Equity"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Equity.",
+    "topic": "Equity",
+    "difficulty": "hard",
+    "objective": "Test understanding of Equity under hard conditions."
+  },
+  {
+    "question": "Question 37: This is a sample CFA-style question on Fixed Inc. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Fixed Inc",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Fixed Inc",
+      "D. Another distractor from Fixed Inc"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Fixed Inc.",
+    "topic": "Fixed Inc",
+    "difficulty": "easy",
+    "objective": "Test understanding of Fixed Inc under easy conditions."
+  },
+  {
+    "question": "Question 38: This is a sample CFA-style question on Derivatives. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Derivatives",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Derivatives",
+      "D. Another distractor from Derivatives"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Derivatives.",
+    "topic": "Derivatives",
+    "difficulty": "medium",
+    "objective": "Test understanding of Derivatives under medium conditions."
+  },
+  {
+    "question": "Question 39: This is a sample CFA-style question on Alt Inv. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Alt Inv",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Alt Inv",
+      "D. Another distractor from Alt Inv"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Alt Inv.",
+    "topic": "Alt Inv",
+    "difficulty": "hard",
+    "objective": "Test understanding of Alt Inv under hard conditions."
+  },
+  {
+    "question": "Question 40: This is a sample CFA-style question on Portfolio. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Portfolio",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Portfolio",
+      "D. Another distractor from Portfolio"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Portfolio.",
+    "topic": "Portfolio",
+    "difficulty": "easy",
+    "objective": "Test understanding of Portfolio under easy conditions."
+  },
+  {
+    "question": "Question 41: This is a sample CFA-style question on Ethics. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Ethics",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Ethics",
+      "D. Another distractor from Ethics"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Ethics.",
+    "topic": "Ethics",
+    "difficulty": "medium",
+    "objective": "Test understanding of Ethics under medium conditions."
+  },
+  {
+    "question": "Question 42: This is a sample CFA-style question on Quant. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Quant",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Quant",
+      "D. Another distractor from Quant"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Quant.",
+    "topic": "Quant",
+    "difficulty": "hard",
+    "objective": "Test understanding of Quant under hard conditions."
+  },
+  {
+    "question": "Question 43: This is a sample CFA-style question on Econ. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Econ",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Econ",
+      "D. Another distractor from Econ"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Econ.",
+    "topic": "Econ",
+    "difficulty": "easy",
+    "objective": "Test understanding of Econ under easy conditions."
+  },
+  {
+    "question": "Question 44: This is a sample CFA-style question on FRA. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to FRA",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for FRA",
+      "D. Another distractor from FRA"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for FRA.",
+    "topic": "FRA",
+    "difficulty": "medium",
+    "objective": "Test understanding of FRA under medium conditions."
+  },
+  {
+    "question": "Question 45: This is a sample CFA-style question on Corp Fin. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Corp Fin",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Corp Fin",
+      "D. Another distractor from Corp Fin"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Corp Fin.",
+    "topic": "Corp Fin",
+    "difficulty": "hard",
+    "objective": "Test understanding of Corp Fin under hard conditions."
+  },
+  {
+    "question": "Question 46: This is a sample CFA-style question on Equity. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Equity",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Equity",
+      "D. Another distractor from Equity"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Equity.",
+    "topic": "Equity",
+    "difficulty": "easy",
+    "objective": "Test understanding of Equity under easy conditions."
+  },
+  {
+    "question": "Question 47: This is a sample CFA-style question on Fixed Inc. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Fixed Inc",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Fixed Inc",
+      "D. Another distractor from Fixed Inc"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Fixed Inc.",
+    "topic": "Fixed Inc",
+    "difficulty": "medium",
+    "objective": "Test understanding of Fixed Inc under medium conditions."
+  },
+  {
+    "question": "Question 48: This is a sample CFA-style question on Derivatives. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Derivatives",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Derivatives",
+      "D. Another distractor from Derivatives"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Derivatives.",
+    "topic": "Derivatives",
+    "difficulty": "hard",
+    "objective": "Test understanding of Derivatives under hard conditions."
+  },
+  {
+    "question": "Question 49: This is a sample CFA-style question on Alt Inv. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Alt Inv",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Alt Inv",
+      "D. Another distractor from Alt Inv"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Alt Inv.",
+    "topic": "Alt Inv",
+    "difficulty": "easy",
+    "objective": "Test understanding of Alt Inv under easy conditions."
+  },
+  {
+    "question": "Question 50: This is a sample CFA-style question on Portfolio. What is the most appropriate action?",
+    "options": [
+      "A. Misconception related to Portfolio",
+      "B. Plausible but incorrect answer",
+      "C. Correct answer for Portfolio",
+      "D. Another distractor from Portfolio"
+    ],
+    "answer": "C",
+    "explanation": "Answer C is correct based on CFA Institute guidance for Portfolio.",
+    "topic": "Portfolio",
+    "difficulty": "medium",
+    "objective": "Test understanding of Portfolio under medium conditions."
+  }
+]
