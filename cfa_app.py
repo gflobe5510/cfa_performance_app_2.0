@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import json
@@ -13,48 +12,64 @@ DB_PATH = "results.db"
 
 @st.cache_data
 def load_questions():
+    """Load questions from the questions.json file."""
     try:
         with open("questions.json", "r") as f:
             questions = json.load(f)
             return questions.get("questions", [])
+    except json.JSONDecodeError as e:
+        st.error(f"Failed to decode JSON: {e}")
+        return []
+    except FileNotFoundError as e:
+        st.error(f"File not found: {e}")
+        return []
     except Exception as e:
         st.error(f"Failed to load questions.json: {e}")
         return []
 
 questions = load_questions()
 
-def log_result(username, q, user_answer, correct):
+def execute_db_query(query, params=()):
+    """Execute a database query with parameters."""
     try:
-        conn = sqlite3.connect(DB_PATH)
-        cursor = conn.cursor()
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS exam_results (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                username TEXT,
-                question TEXT,
-                user_answer TEXT,
-                correct_answer TEXT,
-                is_correct INTEGER,
-                topic TEXT,
-                difficulty TEXT,
-                timestamp TEXT
-            )
-        """)
-        cursor.execute("""
-            INSERT INTO exam_results (
-                username, question, user_answer, correct_answer, is_correct,
-                topic, difficulty, timestamp
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-        """, (
-            username, q['question'], user_answer, q['answer'],
-            int(correct), q['topic'], q['difficulty'], datetime.now().isoformat()
-        ))
-        conn.commit()
-        conn.close()
-    except Exception as e:
-        st.error(f"Error logging result: {e}")
+        with sqlite3.connect(DB_PATH) as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, params)
+            conn.commit()
+    except sqlite3.Error as e:
+        st.error(f"Database error: {e}")
+
+def log_result(username, q, user_answer, correct):
+    """Log the result of a user's answer to the database."""
+    query = """
+        CREATE TABLE IF NOT EXISTS exam_results (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT,
+            question TEXT,
+            user_answer TEXT,
+            correct_answer TEXT,
+            is_correct INTEGER,
+            topic TEXT,
+            difficulty TEXT,
+            timestamp TEXT
+        )
+    """
+    execute_db_query(query)
+
+    query = """
+        INSERT INTO exam_results (
+            username, question, user_answer, correct_answer, is_correct,
+            topic, difficulty, timestamp
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    """
+    params = (
+        username, q['question'], user_answer, q['answer'],
+        int(correct), q['topic'], q['difficulty'], datetime.now().isoformat()
+    )
+    execute_db_query(query, params)
 
 def show_completion_animation():
+    """Show completion animation for the exam."""
     st.markdown("### 🎉 Exam Complete! Great job!")
     st.balloons()
 
@@ -68,7 +83,6 @@ if not questions:
     st.warning("Questions not available. Please ensure questions.json is uploaded.")
 elif section == "🏠 Home":
     st.success("Welcome to your CFA Practice App. Use the sidebar to begin.")
-
 elif section == "🧠 Practice":
     st.header("🧠 Practice Questions")
     topic = st.selectbox("Select Topic", sorted(set(q["topic"] for q in questions)))
