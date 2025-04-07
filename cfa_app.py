@@ -67,7 +67,9 @@ if is_correct:
 else:
     st.error(f"Incorrect ❌. Correct answer: {correct_answer if correct_answer else 'N/A'}")
 
-            st.markdown(f"**Explanation**: {q['explanation']}")
+explanation = q.get("explanation")
+if explanation:
+    st.markdown(f"**Explanation**: {explanation}")
             c = db_conn.cursor()
             c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
                     (username, q["id"], int(is_correct)))
