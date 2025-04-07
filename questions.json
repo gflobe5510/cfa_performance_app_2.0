@@ -36,10 +36,10 @@
       "LOS_reference": "Standard I(B) - Independence and Objectivity",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Gifts from clients if disclosed to the employer.",
+        "An all-expenses-paid trip from a company being analyzed.",
+        "A small token of appreciation from a client.",
+        "A job offer from a firm while still covering it in research."
       ]
     },
     {
@@ -55,16 +55,16 @@
       ],
       "correct_answer": "6.5%",
       "explanation": "Calculation: (0.30 \u00d7 10%) + (0.70 \u00d7 5%) = 3% + 3.5% = 6.5%.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "6.5%",
+        "7.5%",
+        "5.5%",
+        "8.0%"
       ]
     },
     {
@@ -86,10 +86,10 @@
       "LOS_reference": "FRA - Financial Reporting Standards",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "When technical feasibility is demonstrated",
+        "When market research confirms demand",
+        "When preliminary design is completed",
+        "When regulatory approval is received"
       ]
     },
     {
@@ -111,10 +111,10 @@
       "LOS_reference": "Fixed Income - Duration and Convexity",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "-3.375%",
+        "+3.375%",
+        "-4.500%",
+        "+4.500%"
       ]
     },
     {
@@ -130,16 +130,16 @@
       ],
       "correct_answer": "Maintaining integrity even at personal cost",
       "explanation": "The CFA Code of Ethics requires members to act with integrity, competence, and respect, even if doing so is personally disadvantageous.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Engaging in insider trading if not caught",
+        "Maintaining integrity even at personal cost",
+        "Falsifying records to meet performance targets",
+        "Failing to disclose conflicts of interest"
       ]
     },
     {
@@ -161,10 +161,10 @@
       "LOS_reference": "Quantitative Methods - Risk and Return",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "0.67",
+        "1.00",
+        "1.50",
+        "0.15"
       ]
     },
     {
@@ -186,10 +186,10 @@
       "LOS_reference": "Economics - Microeconomic Analysis",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Lower output and higher unemployment",
+        "Higher output and higher inflation",
+        "Higher unemployment and lower inflation",
+        "Lower output and deflation"
       ]
     },
     {
@@ -211,10 +211,10 @@
       "LOS_reference": "FRA - Financial Reporting Standards",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Accounts receivable",
+        "Commercial paper maturing in 60 days",
+        "Inventory",
+        "Preferred stock"
       ]
     },
     {
@@ -236,10 +236,10 @@
       "LOS_reference": "Corporate Finance - Cost of Capital",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "An increase in tax rate",
+        "A decrease in the beta of equity",
+        "An increase in debt financing",
+        "An increase in risk-free rate"
       ]
     },
     {
@@ -255,16 +255,16 @@
       ],
       "correct_answer": "$33.33",
       "explanation": "V = D1 / (r - g) = 2 / (0.10 - 0.04) = $33.33",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "Equity Valuation",
+      "formula_used": "P = D1 / (r - g)",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS EI-05: Explain the Gordon Growth Model and its assumptions.",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "$20.00",
+        "$33.33",
+        "$25.00",
+        "$50.00"
       ]
     },
     {
@@ -286,10 +286,10 @@
       "LOS_reference": "Fixed Income - Bond Valuation",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Its coupon rate being lower than market yield",
+        "Its coupon rate equaling market yield",
+        "Its coupon rate being higher than market yield",
+        "Default risk increasing"
       ]
     },
     {
@@ -311,10 +311,10 @@
       "LOS_reference": "Derivatives - Options and Valuation",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "$0",
+        "$20",
+        "$100",
+        "$120"
       ]
     },
     {
@@ -336,10 +336,10 @@
       "LOS_reference": "Alternative Investments - Private Equity",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Lower liquidity and longer investment horizon",
+        "Higher liquidity and frequent valuation",
+        "Lower due diligence and lower returns",
+        "Public reporting and daily pricing"
       ]
     },
     {
@@ -361,10 +361,10 @@
       "LOS_reference": "Portfolio Management - Risk and Return Analysis",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Standard deviation",
+        "Beta",
+        "Sharpe Ratio",
+        "Alpha"
       ]
     },
     {
@@ -386,10 +386,10 @@
       "LOS_reference": "Ethical & Professional Standards - Priority of Transactions",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "An analyst trades for a client before executing a personal trade",
+        "A portfolio manager places a trade for her mother before client trades",
+        "A broker executes client trades ahead of firm trades",
+        "An employee trades a mutual fund where the firm has no discretion"
       ]
     },
     {
@@ -405,16 +405,16 @@
       ],
       "correct_answer": "5.12%",
       "explanation": "[(1.08)(1.12)(0.96)]^(1/3) - 1 \u2248 5.12% geometric average return.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "4.87%",
+        "5.12%",
+        "5.32%",
+        "5.48%"
       ]
     },
     {
@@ -436,10 +436,10 @@
       "LOS_reference": "Economics - Macroeconomic Measures",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "1%",
+        "2%",
+        "3%",
+        "4%"
       ]
     },
     {
@@ -461,10 +461,10 @@
       "LOS_reference": "FRA - Inventories",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "FIFO",
+        "LIFO",
+        "Weighted Average",
+        "Specific Identification"
       ]
     },
     {
@@ -480,16 +480,16 @@
       ],
       "correct_answer": "$630,000",
       "explanation": "EBT = 1.2M - 0.3M = 0.9M \u2192 Net Income = 0.9M \u00d7 (1 - 0.3) = $630,000.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "Capital Structure",
+      "formula_used": "Interest Coverage Ratio = EBIT / Interest Expense",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS CI-07: Calculate and interpret coverage ratios.",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "$630,000",
+        "$700,000",
+        "$735,000",
+        "$800,000"
       ]
     },
     {
@@ -505,16 +505,16 @@
       ],
       "correct_answer": "$50",
       "explanation": "Using DDM: P = D1 / (r - g) = 3 / (0.10 - 0.04) = $50.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "$50",
+        "$52",
+        "$55",
+        "$60"
       ]
     },
     {
@@ -536,10 +536,10 @@
       "LOS_reference": "Fixed Income - Duration and Convexity",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "-5.76%",
+        "-6.00%",
+        "-6.20%",
+        "-6.50%"
       ]
     },
     {
@@ -555,16 +555,16 @@
       ],
       "correct_answer": "Long Straddle",
       "explanation": "A long straddle profits from large price movements in either direction due to dual option positions.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Covered Call",
+        "Protective Put",
+        "Long Straddle",
+        "Short Straddle"
       ]
     },
     {
@@ -586,10 +586,10 @@
       "LOS_reference": "Alternative Investments - Private Equity",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Public REIT",
+        "Private Equity",
+        "Hedge Fund",
+        "ETFs"
       ]
     },
     {
@@ -611,10 +611,10 @@
       "LOS_reference": "Portfolio Management - Risk and Return Analysis",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8"
       ]
     },
     {
@@ -636,10 +636,10 @@
       "LOS_reference": "Economics - Microeconomic Analysis",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "A higher price level and higher output",
+        "A higher price level with output unchanged",
+        "A lower price level and lower output",
+        "Lower price level with higher output"
       ]
     },
     {
@@ -661,10 +661,10 @@
       "LOS_reference": "Quantitative Methods - Risk and Return",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "1.90%",
+        "5.00%",
+        "6.00%",
+        "3.60%"
       ]
     },
     {
@@ -686,10 +686,10 @@
       "LOS_reference": "Portfolio Management - CAPM",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "CML includes unsystematic risk",
+        "CML plots expected return against beta",
+        "SML applies only to diversified portfolios",
+        "SML applies to all assets including individual securities"
       ]
     },
     {
@@ -711,10 +711,10 @@
       "LOS_reference": "Derivatives - Options and Valuation",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Spot price minus present value of strike price",
+        "Present value of strike price minus spot price",
+        "Call price plus put price",
+        "Put price minus call price"
       ]
     },
     {
@@ -736,10 +736,10 @@
       "LOS_reference": "Alternative Investments - Hedge Funds",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Private equity",
+        "Real estate funds",
+        "Hedge funds",
+        "Infrastructure funds"
       ]
     },
     {
@@ -755,16 +755,16 @@
       ],
       "correct_answer": "Unrealized gains on AFS securities",
       "explanation": "OCI includes items like unrealized gains/losses on AFS securities and foreign currency translation adjustments.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Revenue from product sales",
+        "Unrealized gains on trading securities",
+        "Unrealized gains on AFS securities",
+        "Dividends declared"
       ]
     },
     {
@@ -780,16 +780,16 @@
       ],
       "correct_answer": "Free Cash Flow to Equity (FCFE)",
       "explanation": "FCFE works well for firms without dividends and irregular earnings, focusing on cash available to shareholders.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Discounted Cash Flow (DCF)",
+        "Free Cash Flow to Equity (FCFE)",
+        "Dividend Discount Model (DDM)",
+        "Price/Earnings Ratio"
       ]
     },
     {
@@ -805,16 +805,16 @@
       ],
       "correct_answer": "Firms prefer internal financing, then debt, then equity",
       "explanation": "The pecking order theory emphasizes minimizing asymmetric information by prioritizing internal funds.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Firms prefer equity over debt",
+        "Firms issue bonds before common stock",
+        "Firms prefer internal financing, then debt, then equity",
+        "Firms maintain a constant debt/equity ratio"
       ]
     },
     {
@@ -830,16 +830,16 @@
       ],
       "correct_answer": "Standard II(A) \u2013 Material Nonpublic Information",
       "explanation": "Even if the member does not trade, relaying material nonpublic info violates Standard II(A).",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Standard VI(B) \u2013 Priority of Transactions",
+        "Standard I(C) \u2013 Misrepresentation",
+        "Standard II(A) \u2013 Material Nonpublic Information",
+        "Standard III(B) \u2013 Fair Dealing"
       ]
     },
     {
@@ -861,10 +861,10 @@
       "LOS_reference": "Fixed Income - Bond Valuation",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Reinvestment risk",
+        "Default risk",
+        "Inflation risk",
+        "Currency risk"
       ]
     },
     {
@@ -886,10 +886,10 @@
       "LOS_reference": "Economics - Cost Structures and Market Types",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Total revenue exceeds total cost.",
+        "Price exceeds marginal cost.",
+        "Price exceeds average variable cost.",
+        "Marginal cost equals marginal revenue."
       ]
     },
     {
@@ -911,10 +911,10 @@
       "LOS_reference": "Alternative Investments - Private Equity",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "High liquidity",
+        "Frequent pricing",
+        "Long lock-up periods",
+        "Low risk-adjusted returns"
       ]
     },
     {
@@ -936,10 +936,10 @@
       "LOS_reference": "Corporate Finance - Cost of Capital",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Increased project risk",
+        "Higher net present value of projects",
+        "Lower internal rate of return",
+        "Lower earnings before interest and taxes"
       ]
     },
     {
@@ -955,16 +955,16 @@
       ],
       "correct_answer": "Dividends grow at a constant rate.",
       "explanation": "The model assumes a constant dividend growth rate for valuation simplicity.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "Equity Valuation",
+      "formula_used": "P = D1 / (r - g)",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS EI-05: Explain the Gordon Growth Model and its assumptions.",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Dividends grow at a variable rate.",
+        "P/E ratios are fixed.",
+        "Dividends grow at a constant rate.",
+        "Risk-free rate equals required return."
       ]
     },
     {
@@ -986,10 +986,10 @@
       "LOS_reference": "Derivatives - Options and Valuation",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "The strike price exceeds the spot price.",
+        "The option premium is zero.",
+        "The spot price exceeds the strike price.",
+        "The underlying asset pays a dividend."
       ]
     },
     {
@@ -1011,10 +1011,10 @@
       "LOS_reference": "Portfolio Management - Portfolio Construction",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Maximizing alpha",
+        "Matching assets to liabilities",
+        "Minimizing portfolio turnover",
+        "Selecting individual securities"
       ]
     },
     {
@@ -1036,10 +1036,10 @@
       "LOS_reference": "Quantitative Methods - Risk and Return",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "0.83",
+        "1.20",
+        "0.12",
+        "0.10"
       ]
     },
     {
@@ -1061,10 +1061,10 @@
       "LOS_reference": "FRA - Inventories",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Higher net income",
+        "Lower cost of goods sold",
+        "Higher ending inventory",
+        "Lower taxable income"
       ]
     },
     {
@@ -1080,16 +1080,16 @@
       ],
       "correct_answer": "Disclose to their employer.",
       "explanation": "Disclosure to employer is required for gifts that may affect objectivity.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Disclose to clients.",
+        "Disclose to their employer.",
+        "Refuse all gifts.",
+        "Only accept gifts after the event."
       ]
     },
     {
@@ -1111,10 +1111,10 @@
       "LOS_reference": "Fixed Income - Duration and Convexity",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "It has a short maturity and low coupon.",
+        "It has a long maturity and high coupon.",
+        "It has a long maturity and low coupon.",
+        "It is callable and has a high coupon."
       ]
     },
     {
@@ -1136,10 +1136,10 @@
       "LOS_reference": "Quantitative Methods - Probability Concepts",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "34.1%",
+        "68.2%",
+        "95.4%",
+        "99.7%"
       ]
     },
     {
@@ -1161,10 +1161,10 @@
       "LOS_reference": "Fixed Income - Duration and Convexity",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "5.71",
+        "6.30",
+        "5.00",
+        "6.00"
       ]
     },
     {
@@ -1186,10 +1186,10 @@
       "LOS_reference": "FRA - Financial Reporting Standards",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Unrealized gains on available-for-sale securities",
+        "Foreign currency translation adjustments",
+        "Actuarial gains/losses on defined benefit plans",
+        "Interest expense"
       ]
     },
     {
@@ -1211,10 +1211,10 @@
       "LOS_reference": "Economics - Market Structures",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Positive economic profit",
+        "Zero economic profit",
+        "Negative economic profit",
+        "Monopoly profits"
       ]
     },
     {
@@ -1236,10 +1236,10 @@
       "LOS_reference": "Portfolio Management - Risk and Return Analysis",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Increased returns",
+        "Lower taxes",
+        "Reduced portfolio risk",
+        "Eliminated market risk"
       ]
     },
     {
@@ -1261,10 +1261,10 @@
       "LOS_reference": "Derivatives - Options and Valuation",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "At the money",
+        "Out of the money",
+        "In the money",
+        "Underwater"
       ]
     },
     {
@@ -1286,10 +1286,10 @@
       "LOS_reference": "Alternative Investments - Real Estate",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Commodities",
+        "Private equity",
+        "Real estate",
+        "Hedge funds"
       ]
     },
     {
@@ -1305,16 +1305,16 @@
       ],
       "correct_answer": "7.2%",
       "explanation": "Sustainable growth rate = ROE \u00d7 Retention = 12% \u00d7 0.6 = 7.2%",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "5.2%",
+        "6.8%",
+        "7.2%",
+        "9.6%"
       ]
     },
     {
@@ -1330,16 +1330,16 @@
       ],
       "correct_answer": "Rf + \u03b2 \u00d7 (Rm - Rf)",
       "explanation": "CAPM formula: Cost of Equity = Risk-free rate + Beta \u00d7 Market risk premium.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Rf + \u03b2 \u00d7 (Rm - Rf)",
+        "WACC \u00d7 Debt Ratio",
+        "Earnings / Price",
+        "D1 / P0 + g"
       ]
     },
     {
@@ -1355,16 +1355,16 @@
       ],
       "correct_answer": "Report it to their supervisor or compliance",
       "explanation": "The Standards require reporting potential violations to supervisors or compliance, not skipping channels.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Confront the colleague directly and ignore if denied",
+        "Ignore unless there's a client complaint",
+        "Report it to their supervisor or compliance",
+        "Contact law enforcement directly"
       ]
     },
     {
@@ -1380,16 +1380,16 @@
       ],
       "correct_answer": "Failing to disclose a conflict of interest related to a personal investment.",
       "explanation": "The Code and Standards require full disclosure of any potential conflicts of interest to maintain transparency and trust.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Using publicly available research to support an investment thesis.",
+        "Failing to disclose a conflict of interest related to a personal investment.",
+        "Recommending a diversified portfolio to a risk-averse client.",
+        "Receiving performance-based compensation from a client."
       ]
     },
     {
@@ -1411,10 +1411,10 @@
       "LOS_reference": "Quantitative Methods - Risk and Return",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "0.0672",
+        "0.0732",
+        "0.0804",
+        "0.0920"
       ]
     },
     {
@@ -1436,10 +1436,10 @@
       "LOS_reference": "Economics - Microeconomic Analysis",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Higher real GDP",
+        "Lower unemployment",
+        "Increased inflation",
+        "Lower nominal interest rates"
       ]
     },
     {
@@ -1461,10 +1461,10 @@
       "LOS_reference": "FRA - Inventories",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Net income increases",
+        "Net income decreases",
+        "No effect on net income",
+        "Depends on inventory turnover"
       ]
     },
     {
@@ -1480,16 +1480,16 @@
       ],
       "correct_answer": "Dividend policy",
       "explanation": "Capital structure decisions focus more on financing choices and risk than dividend distribution.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Tax rates",
+        "Dividend policy",
+        "Financial flexibility",
+        "Operating leverage"
       ]
     },
     {
@@ -1505,16 +1505,16 @@
       ],
       "correct_answer": "9.33%",
       "explanation": "Using CAPM: 11% = 3% + 1.5*(Rm - 3%), solve for Rm = 9.33%.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "8.33%",
+        "9.67%",
+        "10.00%",
+        "11.33%"
       ]
     },
     {
@@ -1536,10 +1536,10 @@
       "LOS_reference": "Fixed Income - Bond Valuation",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "5-year zero coupon bond",
+        "5-year 5% coupon bond",
+        "5-year 10% coupon bond",
+        "5-year floating rate note"
       ]
     },
     {
@@ -1561,10 +1561,10 @@
       "LOS_reference": "Derivatives - Options and Valuation",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "$0",
+        "$2",
+        "$3",
+        "$5"
       ]
     },
     {
@@ -1580,16 +1580,16 @@
       ],
       "correct_answer": "REITs",
       "explanation": "REITs are publicly traded and required to disclose financial information, offering more transparency.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Private equity",
+        "Hedge funds",
+        "REITs",
+        "Commodities futures"
       ]
     },
     {
@@ -1605,16 +1605,16 @@
       ],
       "correct_answer": "Sharpe Ratio",
       "explanation": "CML: E(Rp) = Rf + [(E(Rm) - Rf)/\u03c3m] * \u03c3p. The slope is the Sharpe ratio.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Beta",
+        "Sharpe Ratio",
+        "Alpha",
+        "Market Risk Premium"
       ]
     },
     {
@@ -1636,10 +1636,10 @@
       "LOS_reference": "Standard III(E) - Preservation of Confidentiality",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Client discloses illegal activities",
+        "Information concerns future plans",
+        "Information is not material",
+        "Information is shared with employer"
       ]
     },
     {
@@ -1661,10 +1661,10 @@
       "LOS_reference": "Quantitative Methods - Risk and Return",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "0.25",
+        "1.00",
+        "2.00",
+        "0.50"
       ]
     },
     {
@@ -1686,10 +1686,10 @@
       "LOS_reference": "Economics - Currency Exchange Rates",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Export prices decrease",
+        "Imports become cheaper",
+        "Foreign debt becomes less costly",
+        "Domestic inflation falls"
       ]
     },
     {
@@ -1711,10 +1711,10 @@
       "LOS_reference": "FRA - Cash Flow Statement",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "It affects the classification of financing activities",
+        "It changes the cash from operating activities only",
+        "It alters the investing activities section",
+        "It removes the need to reconcile net income"
       ]
     },
     {
@@ -1736,10 +1736,10 @@
       "LOS_reference": "Corporate Finance - Corporate Governance",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "CEO serves as board chair",
+        "Annual performance review of the board",
+        "Audit committee reports to CFO",
+        "Board consists mostly of company insiders"
       ]
     },
     {
@@ -1761,10 +1761,10 @@
       "LOS_reference": "Fixed Income - Yield Measures",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "4.88%",
+        "5.00%",
+        "4.75%",
+        "5.12%"
       ]
     },
     {
@@ -1780,16 +1780,16 @@
       ],
       "correct_answer": "Guaranteeing a specific return to a client",
       "explanation": "Guaranteeing returns violates Standard I(C) \u2013 Misrepresentation. Investment performance can never be guaranteed.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Accepting a modest gift from a client after full disclosure",
+        "Refusing to trade on material nonpublic information",
+        "Guaranteeing a specific return to a client",
+        "Using publicly available financial statements for analysis"
       ]
     },
     {
@@ -1805,16 +1805,16 @@
       ],
       "correct_answer": "1.99%",
       "explanation": "Geometric mean = [(1.02)(1.03)(1.01)]^(1/3) - 1 \u2248 0.0199 or 1.99%",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "1.99%",
+        "2.00%",
+        "2.33%",
+        "2.20%"
       ]
     },
     {
@@ -1836,10 +1836,10 @@
       "LOS_reference": "FRA - Financial Reporting Standards",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Significant decline in market value",
+        "Increase in interest rates",
+        "Positive cash flow projections",
+        "Adverse change in legal environment"
       ]
     },
     {
@@ -1861,10 +1861,10 @@
       "LOS_reference": "Corporate Finance - Dividends and Share Repurchases",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Dividends are paid only when profits are positive",
+        "Dividends are fixed annually regardless of earnings",
+        "Dividends are paid after funding capital expenditures",
+        "Dividends are prioritized over capital investments"
       ]
     },
     {
@@ -1880,16 +1880,16 @@
       ],
       "correct_answer": "$34.67",
       "explanation": "D1 = 2 \u00d7 1.04 = 2.08; Value = 2.08 / (0.10 \u2013 0.04) = $34.67",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "Equity Valuation",
+      "formula_used": "P = D1 / (r - g)",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS EI-05: Explain the Gordon Growth Model and its assumptions.",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "$34.67",
+        "$33.33",
+        "$35.00",
+        "$36.00"
       ]
     },
     {
@@ -1911,10 +1911,10 @@
       "LOS_reference": "Fixed Income - Duration and Convexity",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "5.71",
+        "5.74",
+        "5.68",
+        "5.66"
       ]
     },
     {
@@ -1936,10 +1936,10 @@
       "LOS_reference": "Derivatives - Forward and Futures Valuation",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Positive",
+        "Negative",
+        "Zero",
+        "Equal to spot price"
       ]
     },
     {
@@ -1955,16 +1955,16 @@
       ],
       "correct_answer": "Private equity",
       "explanation": "Private equity typically has long lock-up periods, making it less liquid than publicly traded alternatives.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Listed REIT",
+        "Private equity",
+        "Publicly traded ETF",
+        "Gold futures"
       ]
     },
     {
@@ -1980,16 +1980,16 @@
       ],
       "correct_answer": "It is the tangent line to the efficient frontier",
       "explanation": "CML represents risk-return combinations of efficient portfolios combining the risk-free asset and the market portfolio.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "It plots risk-free assets against beta",
+        "It plots all efficient portfolios",
+        "It is the tangent line to the efficient frontier",
+        "It plots all assets in the market"
       ]
     },
     {
@@ -2011,10 +2011,10 @@
       "LOS_reference": "Economics - Macroeconomic Measures",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "5.00%",
+        "5.10%",
+        "4.85%",
+        "5.20%"
       ]
     },
     {
@@ -2030,16 +2030,16 @@
       ],
       "correct_answer": "Reporting to compliance or authorities",
       "explanation": "Members are required to dissociate and report unethical activities when possible, per Standard I(A).",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Discussing it with the perpetrator only",
+        "Reporting to compliance or authorities",
+        "Ignoring it if not directly involved",
+        "Waiting until harm is evident"
       ]
     },
     {
@@ -2055,16 +2055,16 @@
       ],
       "correct_answer": "Median",
       "explanation": "The median is robust to outliers, unlike the mean, range, and standard deviation.",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Mean",
+        "Standard deviation",
+        "Median",
+        "Range"
       ]
     },
     {
@@ -2086,10 +2086,10 @@
       "LOS_reference": "FRA - Inventories",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "FIFO",
+        "LIFO",
+        "Weighted average",
+        "Specific identification"
       ]
     },
     {
@@ -2105,16 +2105,16 @@
       ],
       "correct_answer": "11.2",
       "explanation": "g = ROE \u00d7 (1 - payout) = 12% \u00d7 0.6 = 7.2%. Justified P/E = (1 \u2013 b) / (r \u2013 g) = 0.4 / (0.12 \u2013 0.072) = 11.2",
-      "subtopic": "TBD",
-      "formula_used": "TBD",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
       "keywords": [],
-      "LOS_reference": "TBD",
+      "LOS_reference": "LOS TBD",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "11.2",
+        "10.5",
+        "12.0",
+        "9.6"
       ]
     },
     {
@@ -2136,10 +2136,10 @@
       "LOS_reference": "Fixed Income - Bond Valuation",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Increases convexity",
+        "Increases duration",
+        "Reduces price volatility when rates fall",
+        "Has no effect on interest rate sensitivity"
       ]
     },
     {
@@ -2161,10 +2161,10 @@
       "LOS_reference": "Ethical & Professional Standards - Fair Dealing",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Providing clients with investment research in the order received.",
+        "Giving preferential treatment to a large client in IPO allocation.",
+        "Disclosing trade intentions to all clients simultaneously.",
+        "Providing a company-wide newsletter outlining new research."
       ]
     },
     {
@@ -2186,10 +2186,10 @@
       "LOS_reference": "Quantitative Methods - Risk and Return",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "[7.22, 8.78]",
+        "[6.50, 9.50]",
+        "[7.21, 8.79]",
+        "[7.00, 9.00]"
       ]
     },
     {
@@ -2211,10 +2211,10 @@
       "LOS_reference": "Economics - Market Structures",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Produces at the minimum of average total cost.",
+        "Makes economic profits.",
+        "Faces a perfectly elastic demand curve.",
+        "Earns zero economic profit."
       ]
     },
     {
@@ -2236,10 +2236,10 @@
       "LOS_reference": "FRA - Financial Reporting Standards",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Statement of retained earnings",
+        "Statement of financial position",
+        "Statement of changes in equity",
+        "Notes to financial statements"
       ]
     },
     {
@@ -2261,10 +2261,10 @@
       "LOS_reference": "Corporate Finance - Cost of Capital",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Increase in marginal tax rate",
+        "Increase in equity beta",
+        "Decrease in interest expense",
+        "Increase in cost of equity"
       ]
     },
     {
@@ -2286,10 +2286,10 @@
       "LOS_reference": "Equity Investments - Gordon Growth Model",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "$30.00",
+        "$33.33",
+        "$25.00",
+        "$28.57"
       ]
     },
     {
@@ -2311,10 +2311,10 @@
       "LOS_reference": "Fixed Income - Bond Valuation",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Zero-coupon bond",
+        "Callable bond",
+        "Putable bond",
+        "Floating-rate bond"
       ]
     },
     {
@@ -2336,10 +2336,10 @@
       "LOS_reference": "Derivatives - Forward and Futures Valuation",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Equal to zero",
+        "Equal to the underlying asset price",
+        "Equal to the forward price",
+        "Equal to the cost of carry"
       ]
     },
     {
@@ -2361,10 +2361,10 @@
       "LOS_reference": "Alternative Investments - Private Equity",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "High liquidity",
+        "Daily pricing transparency",
+        "Long investment horizon",
+        "Minimal due diligence"
       ]
     },
     {
@@ -2386,10 +2386,10 @@
       "LOS_reference": "Portfolio Management - Risk and Return Analysis",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "Increasing the portfolio's standard deviation",
+        "Decreasing the portfolio's return",
+        "Increasing the risk-free rate",
+        "Increasing the portfolio's excess return"
       ]
     },
     {
@@ -2411,10 +2411,10 @@
       "LOS_reference": "Equity Investments - Dividend Valuation Model",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "$33.33",
+        "$35.00",
+        "$36.00",
+        "$37.00"
       ]
     },
     {
@@ -2436,10 +2436,10 @@
       "LOS_reference": "Alternative Investments - Private Equity",
       "image": null,
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "High liquidity and low transparency",
+        "High liquidity and high transparency",
+        "Low liquidity and low transparency",
+        "Low liquidity and high transparency"
       ]
     }
   ]
