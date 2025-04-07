@@ -24,9 +24,9 @@ def init_db():
     conn = sqlite3.connect("results.db")
     c = conn.cursor()
     c.execute('''CREATE TABLE IF NOT EXISTS results (
-                 username TEXT, 
-                 question_id INTEGER, 
-                 correct INTEGER, 
+                 username TEXT,
+                 question_id INTEGER,
+                 correct INTEGER,
                  flagged INTEGER DEFAULT 0
                  )''')
     conn.commit()
@@ -57,7 +57,7 @@ if mode == "Practice":
         user_choice = st.radio("Select your answer:", q["options"], index=None, key="practice_choice")
         if st.button("Submit"):
             is_correct = user_choice and user_choice.split(".")[0] == q["answer"]
-            
+
 correct_answer = q.get("answer")
 if correct_answer is None:
     import logging
@@ -67,7 +67,7 @@ if is_correct:
 else:
     st.error(f"Incorrect ❌. Correct answer: {correct_answer if correct_answer else 'N/A'}")
 
-            st.markdown(f"**Explanation**: {q['explanation']}")
+st.markdown(f"**Explanation**: {q['explanation']}")
             c = db_conn.cursor()
             c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
                       (username, q["id"], int(is_correct)))
