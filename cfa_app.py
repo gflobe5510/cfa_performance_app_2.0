@@ -57,7 +57,16 @@ if mode == "Practice":
         user_choice = st.radio("Select your answer:", q["options"], index=None, key="practice_choice")
         if st.button("Submit"):
             is_correct = user_choice and user_choice.split(".")[0] == q["answer"]
-            st.success("Correct! ✅" if is_correct else f"Incorrect ❌. Correct answer: {q['answer']}")
+            
+correct_answer = q.get("answer")
+if correct_answer is None:
+    import logging
+    logging.warning(f"[Missing Answer] Question ID: {q.get('id', 'unknown')}")
+if is_correct:
+    st.success("Correct! ✅")
+else:
+    st.error(f"Incorrect ❌. Correct answer: {correct_answer if correct_answer else 'N/A'}")
+
             st.markdown(f"**Explanation**: {q['explanation']}")
             c = db_conn.cursor()
             c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
