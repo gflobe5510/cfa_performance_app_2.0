@@ -38,9 +38,34 @@ def init_db():
 db_conn = init_db()
 
 # Sidebar user setup
-username = st.sidebar.text_input("Enter your name")
-if not username:
+st.sidebar.markdown("### 👤 User Login")
+st.sidebar.write("To begin practicing, type your name and click Start.")
+
+if "user_logged_in" not in st.session_state:
+    st.session_state.user_logged_in = False
+
+username = st.sidebar.text_input("Enter your name", value=st.session_state.get("username", ""))
+start_button = st.sidebar.button("Start")
+
+if start_button and username.strip():
+    st.session_state.user_logged_in = True
+    st.session_state.username = username.strip()
+elif not st.session_state.user_logged_in:
     st.stop()
+
+# Use stored name for the rest of the app
+username = st.session_state.username
+
+# Welcome message and instructions
+st.success(f"Welcome, {username}! 🎉")
+st.markdown(
+    """
+    👋 **You're all set!**
+
+    - Choose between **Practice Questions** or a **Mock Exam** using the sidebar.
+    - After completing a section, head to the **Progress** tab to track your results and measure your improvement over time. 📈
+    """
+)
 
 # App Tabs
 mode = st.sidebar.radio("Choose Mode", ["Practice", "Mock Exam", "Progress"])
