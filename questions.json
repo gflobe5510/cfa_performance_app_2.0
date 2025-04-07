@@ -34,7 +34,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "Standard I(B) - Independence and Objectivity",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "QM-001",
@@ -53,7 +59,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-002",
@@ -72,7 +84,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "FRA - Financial Reporting Standards",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "FI-001",
@@ -91,7 +109,13 @@
       "formula_used": "Modified Duration = Macaulay Duration / (1 + YTM/n)",
       "keywords": [],
       "LOS_reference": "Fixed Income - Duration and Convexity",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-003",
@@ -110,7 +134,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "QM-002",
@@ -129,7 +159,13 @@
       "formula_used": "\u03c3 = \u221a\u03a3((x_i - \u03bc)^2 / n)",
       "keywords": [],
       "LOS_reference": "Quantitative Methods - Risk and Return",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ECON-001",
@@ -148,7 +184,13 @@
       "formula_used": "Equilibrium: Qd = Qs",
       "keywords": [],
       "LOS_reference": "Economics - Microeconomic Analysis",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-004",
@@ -167,7 +209,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "FRA - Financial Reporting Standards",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-005",
@@ -186,7 +234,13 @@
       "formula_used": "WACC = w_e * r_e + w_d * r_d * (1 - T)",
       "keywords": [],
       "LOS_reference": "Corporate Finance - Cost of Capital",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-006",
@@ -205,7 +259,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "FI-002",
@@ -224,7 +284,13 @@
       "formula_used": "PV = \u03a3 (Coupon / (1+r)^t) + FV / (1+r)^n",
       "keywords": [],
       "LOS_reference": "Fixed Income - Bond Valuation",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "DER-001",
@@ -243,7 +309,13 @@
       "formula_used": "Call = max(0, S - X), Put = max(0, X - S)",
       "keywords": [],
       "LOS_reference": "Derivatives - Options and Valuation",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ALT-001",
@@ -262,7 +334,13 @@
       "formula_used": "IRR = Discount rate that sets NPV to 0",
       "keywords": [],
       "LOS_reference": "Alternative Investments - Private Equity",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "PM-001",
@@ -281,7 +359,13 @@
       "formula_used": "Sharpe = (Rp - Rf) / \u03c3p",
       "keywords": [],
       "LOS_reference": "Portfolio Management - Risk and Return Analysis",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-007",
@@ -300,7 +384,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "Ethical & Professional Standards - Priority of Transactions",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "QM-003",
@@ -319,7 +409,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ECON-002",
@@ -338,7 +434,13 @@
       "formula_used": "Real GDP = Nominal GDP / (CPI / 100)",
       "keywords": [],
       "LOS_reference": "Economics - Macroeconomic Measures",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-008",
@@ -357,7 +459,13 @@
       "formula_used": "COGS = Beginning Inventory + Purchases - Ending Inventory",
       "keywords": [],
       "LOS_reference": "FRA - Inventories",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-009",
@@ -376,7 +484,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-010",
@@ -395,7 +509,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "FI-003",
@@ -414,7 +534,13 @@
       "formula_used": "Modified Duration = Macaulay Duration / (1 + YTM/n)",
       "keywords": [],
       "LOS_reference": "Fixed Income - Duration and Convexity",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "DER-002",
@@ -433,7 +559,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ALT-002",
@@ -452,7 +584,13 @@
       "formula_used": "IRR = Discount rate that sets NPV to 0",
       "keywords": [],
       "LOS_reference": "Alternative Investments - Private Equity",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "PM-002",
@@ -471,7 +609,13 @@
       "formula_used": "Sharpe = (Rp - Rf) / \u03c3p",
       "keywords": [],
       "LOS_reference": "Portfolio Management - Risk and Return Analysis",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ECON-003",
@@ -490,7 +634,13 @@
       "formula_used": "Equilibrium: Qd = Qs",
       "keywords": [],
       "LOS_reference": "Economics - Microeconomic Analysis",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "QM-004",
@@ -509,7 +659,13 @@
       "formula_used": "\u03c3 = \u221a\u03a3((x_i - \u03bc)^2 / n)",
       "keywords": [],
       "LOS_reference": "Quantitative Methods - Risk and Return",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "PM-003",
@@ -528,7 +684,13 @@
       "formula_used": "E(Ri) = Rf + \u03b2i(E(Rm) - Rf)",
       "keywords": [],
       "LOS_reference": "Portfolio Management - CAPM",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "DER-003",
@@ -547,7 +709,13 @@
       "formula_used": "Call = max(0, S - X), Put = max(0, X - S)",
       "keywords": [],
       "LOS_reference": "Derivatives - Options and Valuation",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ALT-003",
@@ -566,7 +734,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "Alternative Investments - Hedge Funds",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-011",
@@ -585,7 +759,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-012",
@@ -604,7 +784,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-013",
@@ -623,7 +809,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-014",
@@ -642,7 +834,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "FI-004",
@@ -661,7 +859,13 @@
       "formula_used": "PV = \u03a3 (Coupon / (1+r)^t) + FV / (1+r)^n",
       "keywords": [],
       "LOS_reference": "Fixed Income - Bond Valuation",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ECON-004",
@@ -680,7 +884,13 @@
       "formula_used": "Continue operating if Price \u2265 AVC",
       "keywords": [],
       "LOS_reference": "Economics - Cost Structures and Market Types",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ALT-004",
@@ -699,7 +909,13 @@
       "formula_used": "IRR = Discount rate that sets NPV to 0",
       "keywords": [],
       "LOS_reference": "Alternative Investments - Private Equity",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-015",
@@ -718,7 +934,13 @@
       "formula_used": "WACC = w_e * r_e + w_d * r_d * (1 - T)",
       "keywords": [],
       "LOS_reference": "Corporate Finance - Cost of Capital",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-016",
@@ -737,7 +959,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "DER-004",
@@ -756,7 +984,13 @@
       "formula_used": "Call = max(0, S - X), Put = max(0, X - S)",
       "keywords": [],
       "LOS_reference": "Derivatives - Options and Valuation",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "PM-004",
@@ -775,7 +1009,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "Portfolio Management - Portfolio Construction",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "QM-005",
@@ -794,7 +1034,13 @@
       "formula_used": "\u03c3 = \u221a\u03a3((x_i - \u03bc)^2 / n)",
       "keywords": [],
       "LOS_reference": "Quantitative Methods - Risk and Return",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-017",
@@ -813,7 +1059,13 @@
       "formula_used": "COGS = Beginning Inventory + Purchases - Ending Inventory",
       "keywords": [],
       "LOS_reference": "FRA - Inventories",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-018",
@@ -832,7 +1084,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "FI-005",
@@ -851,7 +1109,13 @@
       "formula_used": "Approx Convexity = [P(-) + P(+) - 2P(0)] / (\u0394y)^2 \u00d7 P(0)",
       "keywords": [],
       "LOS_reference": "Fixed Income - Duration and Convexity",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "QM-006",
@@ -870,7 +1134,13 @@
       "formula_used": "Expected Value = \u03a3(p_i \u00d7 x_i)",
       "keywords": [],
       "LOS_reference": "Quantitative Methods - Probability Concepts",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "FI-006",
@@ -889,7 +1159,13 @@
       "formula_used": "Modified Duration = Macaulay Duration / (1 + YTM/n)",
       "keywords": [],
       "LOS_reference": "Fixed Income - Duration and Convexity",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-019",
@@ -908,7 +1184,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "FRA - Financial Reporting Standards",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ECON-005",
@@ -927,7 +1209,13 @@
       "formula_used": "Long-run profit = 0 under perfect competition",
       "keywords": [],
       "LOS_reference": "Economics - Market Structures",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "PM-005",
@@ -946,7 +1234,13 @@
       "formula_used": "Portfolio \u03c3 < Weighted \u03c3 of individual assets",
       "keywords": [],
       "LOS_reference": "Portfolio Management - Risk and Return Analysis",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "DER-005",
@@ -965,7 +1259,13 @@
       "formula_used": "Call = max(0, S - X), Put = max(0, X - S)",
       "keywords": [],
       "LOS_reference": "Derivatives - Options and Valuation",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ALT-005",
@@ -984,7 +1284,13 @@
       "formula_used": "Cap Rate = NOI / Property Value",
       "keywords": [],
       "LOS_reference": "Alternative Investments - Real Estate",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-020",
@@ -1003,7 +1309,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-021",
@@ -1022,7 +1334,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-022",
@@ -1041,7 +1359,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-023",
@@ -1060,7 +1384,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "QM-007",
@@ -1079,7 +1409,13 @@
       "formula_used": "\u03c3 = \u221a\u03a3((x_i - \u03bc)^2 / n)",
       "keywords": [],
       "LOS_reference": "Quantitative Methods - Risk and Return",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ECON-006",
@@ -1098,7 +1434,13 @@
       "formula_used": "Equilibrium: Qd = Qs",
       "keywords": [],
       "LOS_reference": "Economics - Microeconomic Analysis",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-024",
@@ -1117,7 +1459,13 @@
       "formula_used": "COGS = Beginning Inventory + Purchases - Ending Inventory",
       "keywords": [],
       "LOS_reference": "FRA - Inventories",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-025",
@@ -1136,7 +1484,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-026",
@@ -1155,7 +1509,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "FI-007",
@@ -1174,7 +1534,13 @@
       "formula_used": "PV = \u03a3 (Coupon / (1+r)^t) + FV / (1+r)^n",
       "keywords": [],
       "LOS_reference": "Fixed Income - Bond Valuation",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "DER-006",
@@ -1193,7 +1559,13 @@
       "formula_used": "Call = max(0, S - X), Put = max(0, X - S)",
       "keywords": [],
       "LOS_reference": "Derivatives - Options and Valuation",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ALT-006",
@@ -1212,7 +1584,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "PM-006",
@@ -1231,7 +1609,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-027",
@@ -1250,7 +1634,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "Standard III(E) - Preservation of Confidentiality",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "QM-008",
@@ -1269,7 +1659,13 @@
       "formula_used": "\u03c3 = \u221a\u03a3((x_i - \u03bc)^2 / n)",
       "keywords": [],
       "LOS_reference": "Quantitative Methods - Risk and Return",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ECON-007",
@@ -1288,7 +1684,13 @@
       "formula_used": "Real ER = Nominal ER \u00d7 (P_domestic / P_foreign)",
       "keywords": [],
       "LOS_reference": "Economics - Currency Exchange Rates",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-028",
@@ -1307,7 +1709,13 @@
       "formula_used": "CFO, CFI, CFF = Changes in cash from ops, investing, financing",
       "keywords": [],
       "LOS_reference": "FRA - Cash Flow Statement",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-029",
@@ -1326,7 +1734,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "Corporate Finance - Corporate Governance",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "FI-008",
@@ -1345,7 +1759,13 @@
       "formula_used": "Current Yield = Annual Coupon / Price",
       "keywords": [],
       "LOS_reference": "Fixed Income - Yield Measures",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-030",
@@ -1364,7 +1784,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "QM-009",
@@ -1383,7 +1809,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-031",
@@ -1402,7 +1834,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "FRA - Financial Reporting Standards",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-032",
@@ -1421,7 +1859,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "Corporate Finance - Dividends and Share Repurchases",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-033",
@@ -1440,7 +1884,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "FI-009",
@@ -1459,7 +1909,13 @@
       "formula_used": "Modified Duration = Macaulay Duration / (1 + YTM/n)",
       "keywords": [],
       "LOS_reference": "Fixed Income - Duration and Convexity",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "DER-007",
@@ -1478,7 +1934,13 @@
       "formula_used": "F = S \u00d7 (1 + r)^T",
       "keywords": [],
       "LOS_reference": "Derivatives - Forward and Futures Valuation",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ALT-007",
@@ -1497,7 +1959,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "PM-007",
@@ -1516,7 +1984,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ECON-008",
@@ -1535,7 +2009,13 @@
       "formula_used": "Real GDP = Nominal GDP / (CPI / 100)",
       "keywords": [],
       "LOS_reference": "Economics - Macroeconomic Measures",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-034",
@@ -1554,7 +2034,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "QM-010",
@@ -1573,7 +2059,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-035",
@@ -1592,7 +2084,13 @@
       "formula_used": "COGS = Beginning Inventory + Purchases - Ending Inventory",
       "keywords": [],
       "LOS_reference": "FRA - Inventories",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-036",
@@ -1611,7 +2109,13 @@
       "formula_used": "TBD",
       "keywords": [],
       "LOS_reference": "TBD",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "FI-010",
@@ -1630,7 +2134,13 @@
       "formula_used": "PV = \u03a3 (Coupon / (1+r)^t) + FV / (1+r)^n",
       "keywords": [],
       "LOS_reference": "Fixed Income - Bond Valuation",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-037",
@@ -1649,7 +2159,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "Ethical & Professional Standards - Fair Dealing",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "QM-011",
@@ -1668,7 +2184,13 @@
       "formula_used": "\u03c3 = \u221a\u03a3((x_i - \u03bc)^2 / n)",
       "keywords": [],
       "LOS_reference": "Quantitative Methods - Risk and Return",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ECON-009",
@@ -1687,7 +2209,13 @@
       "formula_used": "Long-run profit = 0 under monopolistic competition",
       "keywords": [],
       "LOS_reference": "Economics - Market Structures",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-038",
@@ -1706,7 +2234,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "FRA - Financial Reporting Standards",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-039",
@@ -1725,7 +2259,13 @@
       "formula_used": "WACC = w_e * r_e + w_d * r_d * (1 - T)",
       "keywords": [],
       "LOS_reference": "Corporate Finance - Cost of Capital",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-040",
@@ -1744,7 +2284,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "Equity Investments - Gordon Growth Model",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "FI-011",
@@ -1763,7 +2309,13 @@
       "formula_used": "PV = \u03a3 (Coupon / (1+r)^t) + FV / (1+r)^n",
       "keywords": [],
       "LOS_reference": "Fixed Income - Bond Valuation",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "DER-008",
@@ -1782,7 +2334,13 @@
       "formula_used": "F = S \u00d7 (1 + r)^T",
       "keywords": [],
       "LOS_reference": "Derivatives - Forward and Futures Valuation",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ALT-008",
@@ -1801,7 +2359,13 @@
       "formula_used": "IRR = Discount rate that sets NPV to 0",
       "keywords": [],
       "LOS_reference": "Alternative Investments - Private Equity",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "PM-008",
@@ -1820,7 +2384,13 @@
       "formula_used": "Sharpe = (Rp - Rf) / \u03c3p",
       "keywords": [],
       "LOS_reference": "Portfolio Management - Risk and Return Analysis",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "GEN-041",
@@ -1839,7 +2409,13 @@
       "formula_used": "None",
       "keywords": [],
       "LOS_reference": "Equity Investments - Dividend Valuation Model",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     },
     {
       "id": "ALT-009",
@@ -1858,7 +2434,13 @@
       "formula_used": "IRR = Discount rate that sets NPV to 0",
       "keywords": [],
       "LOS_reference": "Alternative Investments - Private Equity",
-      "image": null
+      "image": null,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ]
     }
   ]
 }
