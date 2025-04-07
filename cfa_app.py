@@ -24,11 +24,11 @@ def init_db():
     conn = sqlite3.connect("results.db")
     c = conn.cursor()
     c.execute('''CREATE TABLE IF NOT EXISTS results (
-                 username TEXT,
-                 question_id INTEGER,
-                 correct INTEGER,
-                 flagged INTEGER DEFAULT 0
-                 )''')
+                username TEXT, 
+                question_id INTEGER, 
+                correct INTEGER, 
+                flagged INTEGER DEFAULT 0
+                )''')
     conn.commit()
     return conn
 
@@ -57,7 +57,7 @@ if mode == "Practice":
         user_choice = st.radio("Select your answer:", q["options"], index=None, key="practice_choice")
         if st.button("Submit"):
             is_correct = user_choice and user_choice.split(".")[0] == q["answer"]
-
+            
 correct_answer = q.get("answer")
 if correct_answer is None:
     import logging
@@ -67,10 +67,10 @@ if is_correct:
 else:
     st.error(f"Incorrect ❌. Correct answer: {correct_answer if correct_answer else 'N/A'}")
 
-st.markdown(f"**Explanation**: {q['explanation']}")
+            st.markdown(f"**Explanation**: {q['explanation']}")
             c = db_conn.cursor()
             c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
-                      (username, q["id"], int(is_correct)))
+                    (username, q["id"], int(is_correct)))
             db_conn.commit()
 
 # Mock Exam Mode
@@ -94,7 +94,7 @@ elif mode == "Mock Exam":
             c = db_conn.cursor()
             is_correct = st.session_state.answered[i] and st.session_state.answered[i].split(".")[0] == q["answer"]
             c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
-                      (username, q["id"], int(bool(is_correct))))
+                    (username, q["id"], int(bool(is_correct))))
         db_conn.commit()
         del st.session_state.exam_qs
         del st.session_state.answered
