@@ -16,6 +16,8 @@ def load_questions():
     return data["questions"]
 
 # Load questions
+for q in questions:
+    q["difficulty"] = q["difficulty"].capitalize()
 questions = load_questions()
 topics = sorted(set(q["topic"] for q in questions))
 difficulties = sorted(set(q["difficulty"] for q in questions))
