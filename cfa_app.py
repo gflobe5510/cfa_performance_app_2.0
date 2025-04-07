@@ -74,7 +74,7 @@ if mode == "Practice":
 
             c = db_conn.cursor()
             c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
-                      (username, q["id"], int(is_correct)))
+                      (username, q["id"], int(bool(is_correct))))
             db_conn.commit()
 
 # Mock Exam Mode
