@@ -1,9 +1,20 @@
 {
   "metadata": {
-    "version": "2025.1",
-    "last_updated": "2025-04-07",
-    "total_questions": 183,
-    "balance_note": "Equal distribution of difficulty levels: 61 Easy, 61 Medium, 61 Hard"
+    "exam_weights": {
+      "Ethical & Professional Standards": 15,
+      "Quantitative Methods": 10,
+      "Economics": 10,
+      "Financial Reporting & Analysis": 15,
+      "Corporate Issuers": 10,
+      "Equity Investments": 11,
+      "Fixed Income": 11,
+      "Derivatives": 6,
+      "Alternative Investments": 6,
+      "Portfolio Management": 6
+    },
+    "total_questions": 159,
+    "version": "2024.1",
+    "last_updated": "2025-04-07"
   },
   "questions": [
     {
@@ -29,6 +40,31 @@
         "An all-expenses-paid trip from a company being analyzed.",
         "A small token of appreciation from a client.",
         "A job offer from a firm while still covering it in research."
+      ]
+    },
+    {
+      "id": "QM-001",
+      "topic": "Quantitative Methods",
+      "difficulty": "Medium",
+      "question": "A stock has a 30% chance of a 10% return and a 70% chance of a 5% return. Its expected return is:",
+      "choices": [
+        "6.5%",
+        "7.5%",
+        "5.5%",
+        "8.0%"
+      ],
+      "correct_answer": "6.5%",
+      "explanation": "Calculation: (0.30 \u00d7 10%) + (0.70 \u00d7 5%) = 3% + 3.5% = 6.5%.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "6.5%",
+        "7.5%",
+        "5.5%",
+        "8.0%"
       ]
     },
     {
@@ -79,6 +115,31 @@
         "+3.375%",
         "-4.500%",
         "+4.500%"
+      ]
+    },
+    {
+      "id": "GEN-003",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Medium",
+      "question": "Which action is most consistent with the CFA Institute's Code of Ethics?",
+      "choices": [
+        "Engaging in insider trading if not caught",
+        "Maintaining integrity even at personal cost",
+        "Falsifying records to meet performance targets",
+        "Failing to disclose conflicts of interest"
+      ],
+      "correct_answer": "Maintaining integrity even at personal cost",
+      "explanation": "The CFA Code of Ethics requires members to act with integrity, competence, and respect, even if doing so is personally disadvantageous.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Engaging in insider trading if not caught",
+        "Maintaining integrity even at personal cost",
+        "Falsifying records to meet performance targets",
+        "Failing to disclose conflicts of interest"
       ]
     },
     {
@@ -332,6 +393,31 @@
       ]
     },
     {
+      "id": "QM-003",
+      "topic": "Quantitative Methods",
+      "difficulty": "Medium",
+      "question": "An investment returns 8%, 12%, and -4% over 3 years. What is the geometric mean return?",
+      "choices": [
+        "4.87%",
+        "5.12%",
+        "5.32%",
+        "5.48%"
+      ],
+      "correct_answer": "5.12%",
+      "explanation": "[(1.08)(1.12)(0.96)]^(1/3) - 1 \u2248 5.12% geometric average return.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "4.87%",
+        "5.12%",
+        "5.32%",
+        "5.48%"
+      ]
+    },
+    {
       "id": "ECON-002",
       "topic": "Economics",
       "difficulty": "Medium",
@@ -407,6 +493,31 @@
       ]
     },
     {
+      "id": "GEN-010",
+      "topic": "Equity Investments",
+      "difficulty": "Medium",
+      "question": "A firm\u2019s dividend next year is $3, the growth rate is 4%, and required return is 10%. Fair value is:",
+      "choices": [
+        "$50",
+        "$52",
+        "$55",
+        "$60"
+      ],
+      "correct_answer": "$50",
+      "explanation": "Using DDM: P = D1 / (r - g) = 3 / (0.10 - 0.04) = $50.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "$50",
+        "$52",
+        "$55",
+        "$60"
+      ]
+    },
+    {
       "id": "FI-003",
       "topic": "Fixed Income",
       "difficulty": "Medium",
@@ -429,6 +540,31 @@
         "-6.00%",
         "-6.20%",
         "-6.50%"
+      ]
+    },
+    {
+      "id": "DER-002",
+      "topic": "Derivatives",
+      "difficulty": "Medium",
+      "question": "Which option strategy profits most in a highly volatile market?",
+      "choices": [
+        "Covered Call",
+        "Protective Put",
+        "Long Straddle",
+        "Short Straddle"
+      ],
+      "correct_answer": "Long Straddle",
+      "explanation": "A long straddle profits from large price movements in either direction due to dual option positions.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Covered Call",
+        "Protective Put",
+        "Long Straddle",
+        "Short Straddle"
       ]
     },
     {
@@ -604,6 +740,106 @@
         "Real estate funds",
         "Hedge funds",
         "Infrastructure funds"
+      ]
+    },
+    {
+      "id": "GEN-011",
+      "topic": "Financial Reporting & Analysis",
+      "difficulty": "Medium",
+      "question": "Which is a required element of other comprehensive income (OCI)?",
+      "choices": [
+        "Revenue from product sales",
+        "Unrealized gains on trading securities",
+        "Unrealized gains on AFS securities",
+        "Dividends declared"
+      ],
+      "correct_answer": "Unrealized gains on AFS securities",
+      "explanation": "OCI includes items like unrealized gains/losses on AFS securities and foreign currency translation adjustments.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Revenue from product sales",
+        "Unrealized gains on trading securities",
+        "Unrealized gains on AFS securities",
+        "Dividends declared"
+      ]
+    },
+    {
+      "id": "GEN-012",
+      "topic": "Equity Investments",
+      "difficulty": "Hard",
+      "question": "What valuation method is most appropriate for a firm with no dividends and negative earnings?",
+      "choices": [
+        "Discounted Cash Flow (DCF)",
+        "Free Cash Flow to Equity (FCFE)",
+        "Dividend Discount Model (DDM)",
+        "Price/Earnings Ratio"
+      ],
+      "correct_answer": "Free Cash Flow to Equity (FCFE)",
+      "explanation": "FCFE works well for firms without dividends and irregular earnings, focusing on cash available to shareholders.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Discounted Cash Flow (DCF)",
+        "Free Cash Flow to Equity (FCFE)",
+        "Dividend Discount Model (DDM)",
+        "Price/Earnings Ratio"
+      ]
+    },
+    {
+      "id": "GEN-013",
+      "topic": "Corporate Issuers",
+      "difficulty": "Medium",
+      "question": "Which of the following best describes the pecking order theory?",
+      "choices": [
+        "Firms prefer equity over debt",
+        "Firms issue bonds before common stock",
+        "Firms prefer internal financing, then debt, then equity",
+        "Firms maintain a constant debt/equity ratio"
+      ],
+      "correct_answer": "Firms prefer internal financing, then debt, then equity",
+      "explanation": "The pecking order theory emphasizes minimizing asymmetric information by prioritizing internal funds.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Firms prefer equity over debt",
+        "Firms issue bonds before common stock",
+        "Firms prefer internal financing, then debt, then equity",
+        "Firms maintain a constant debt/equity ratio"
+      ]
+    },
+    {
+      "id": "GEN-014",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Hard",
+      "question": "A CFA member sends insider info to a colleague without trading. What standard is violated?",
+      "choices": [
+        "Standard VI(B) \u2013 Priority of Transactions",
+        "Standard I(C) \u2013 Misrepresentation",
+        "Standard II(A) \u2013 Material Nonpublic Information",
+        "Standard III(B) \u2013 Fair Dealing"
+      ],
+      "correct_answer": "Standard II(A) \u2013 Material Nonpublic Information",
+      "explanation": "Even if the member does not trade, relaying material nonpublic info violates Standard II(A).",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Standard VI(B) \u2013 Priority of Transactions",
+        "Standard I(C) \u2013 Misrepresentation",
+        "Standard II(A) \u2013 Material Nonpublic Information",
+        "Standard III(B) \u2013 Fair Dealing"
       ]
     },
     {
@@ -832,6 +1068,31 @@
       ]
     },
     {
+      "id": "GEN-018",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Easy",
+      "question": "A CFA charterholder is offered tickets to a major sports event. To accept, they must:",
+      "choices": [
+        "Disclose to clients.",
+        "Disclose to their employer.",
+        "Refuse all gifts.",
+        "Only accept gifts after the event."
+      ],
+      "correct_answer": "Disclose to their employer.",
+      "explanation": "Disclosure to employer is required for gifts that may affect objectivity.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Disclose to clients.",
+        "Disclose to their employer.",
+        "Refuse all gifts.",
+        "Only accept gifts after the event."
+      ]
+    },
+    {
       "id": "FI-005",
       "topic": "Fixed Income",
       "difficulty": "Medium",
@@ -1032,6 +1293,106 @@
       ]
     },
     {
+      "id": "GEN-020",
+      "topic": "Equity Investments",
+      "difficulty": "Hard",
+      "question": "A firm\u2019s ROE is 12%, retention ratio is 60%. What is its sustainable growth rate?",
+      "choices": [
+        "5.2%",
+        "6.8%",
+        "7.2%",
+        "9.6%"
+      ],
+      "correct_answer": "7.2%",
+      "explanation": "Sustainable growth rate = ROE \u00d7 Retention = 12% \u00d7 0.6 = 7.2%",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "5.2%",
+        "6.8%",
+        "7.2%",
+        "9.6%"
+      ]
+    },
+    {
+      "id": "GEN-021",
+      "topic": "Corporate Issuers",
+      "difficulty": "Medium",
+      "question": "The cost of equity using the CAPM is calculated as:",
+      "choices": [
+        "Rf + \u03b2 \u00d7 (Rm - Rf)",
+        "WACC \u00d7 Debt Ratio",
+        "Earnings / Price",
+        "D1 / P0 + g"
+      ],
+      "correct_answer": "Rf + \u03b2 \u00d7 (Rm - Rf)",
+      "explanation": "CAPM formula: Cost of Equity = Risk-free rate + Beta \u00d7 Market risk premium.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Rf + \u03b2 \u00d7 (Rm - Rf)",
+        "WACC \u00d7 Debt Ratio",
+        "Earnings / Price",
+        "D1 / P0 + g"
+      ]
+    },
+    {
+      "id": "GEN-022",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Medium",
+      "question": "What should a CFA member do if they suspect a colleague is violating the Code of Ethics?",
+      "choices": [
+        "Confront the colleague directly and ignore if denied",
+        "Ignore unless there's a client complaint",
+        "Report it to their supervisor or compliance",
+        "Contact law enforcement directly"
+      ],
+      "correct_answer": "Report it to their supervisor or compliance",
+      "explanation": "The Standards require reporting potential violations to supervisors or compliance, not skipping channels.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Confront the colleague directly and ignore if denied",
+        "Ignore unless there's a client complaint",
+        "Report it to their supervisor or compliance",
+        "Contact law enforcement directly"
+      ]
+    },
+    {
+      "id": "GEN-023",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Medium",
+      "question": "Which action most likely violates the CFA Institute's Code of Ethics?",
+      "choices": [
+        "Using publicly available research to support an investment thesis.",
+        "Failing to disclose a conflict of interest related to a personal investment.",
+        "Recommending a diversified portfolio to a risk-averse client.",
+        "Receiving performance-based compensation from a client."
+      ],
+      "correct_answer": "Failing to disclose a conflict of interest related to a personal investment.",
+      "explanation": "The Code and Standards require full disclosure of any potential conflicts of interest to maintain transparency and trust.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Using publicly available research to support an investment thesis.",
+        "Failing to disclose a conflict of interest related to a personal investment.",
+        "Recommending a diversified portfolio to a risk-averse client.",
+        "Receiving performance-based compensation from a client."
+      ]
+    },
+    {
       "id": "QM-007",
       "topic": "Quantitative Methods",
       "difficulty": "Hard",
@@ -1107,6 +1468,56 @@
       ]
     },
     {
+      "id": "GEN-025",
+      "topic": "Corporate Issuers",
+      "difficulty": "Easy",
+      "question": "Which of the following is least likely a factor affecting a firm\u2019s capital structure?",
+      "choices": [
+        "Tax rates",
+        "Dividend policy",
+        "Financial flexibility",
+        "Operating leverage"
+      ],
+      "correct_answer": "Dividend policy",
+      "explanation": "Capital structure decisions focus more on financing choices and risk than dividend distribution.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Tax rates",
+        "Dividend policy",
+        "Financial flexibility",
+        "Operating leverage"
+      ]
+    },
+    {
+      "id": "GEN-026",
+      "topic": "Equity Investments",
+      "difficulty": "Medium",
+      "question": "A firm with a beta of 1.5 has an expected return of 11%. If the risk-free rate is 3%, what is the market return?",
+      "choices": [
+        "8.33%",
+        "9.67%",
+        "10.00%",
+        "11.33%"
+      ],
+      "correct_answer": "9.33%",
+      "explanation": "Using CAPM: 11% = 3% + 1.5*(Rm - 3%), solve for Rm = 9.33%.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "8.33%",
+        "9.67%",
+        "10.00%",
+        "11.33%"
+      ]
+    },
+    {
       "id": "FI-007",
       "topic": "Fixed Income",
       "difficulty": "Medium",
@@ -1154,6 +1565,56 @@
         "$2",
         "$3",
         "$5"
+      ]
+    },
+    {
+      "id": "ALT-006",
+      "topic": "Alternative Investments",
+      "difficulty": "Easy",
+      "question": "Which investment vehicle offers the highest transparency and liquidity?",
+      "choices": [
+        "Private equity",
+        "Hedge funds",
+        "REITs",
+        "Commodities futures"
+      ],
+      "correct_answer": "REITs",
+      "explanation": "REITs are publicly traded and required to disclose financial information, offering more transparency.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Private equity",
+        "Hedge funds",
+        "REITs",
+        "Commodities futures"
+      ]
+    },
+    {
+      "id": "PM-006",
+      "topic": "Portfolio Management",
+      "difficulty": "Medium",
+      "question": "The slope of the Capital Market Line (CML) represents:",
+      "choices": [
+        "Beta",
+        "Sharpe Ratio",
+        "Alpha",
+        "Market Risk Premium"
+      ],
+      "correct_answer": "Sharpe Ratio",
+      "explanation": "CML: E(Rp) = Rf + [(E(Rm) - Rf)/\u03c3m] * \u03c3p. The slope is the Sharpe ratio.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Beta",
+        "Sharpe Ratio",
+        "Alpha",
+        "Market Risk Premium"
       ]
     },
     {
@@ -1307,6 +1768,56 @@
       ]
     },
     {
+      "id": "GEN-030",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Medium",
+      "question": "Which of the following most accurately represents a violation of the CFA Institute Code of Ethics and Standards of Professional Conduct?",
+      "choices": [
+        "Accepting a modest gift from a client after full disclosure",
+        "Refusing to trade on material nonpublic information",
+        "Guaranteeing a specific return to a client",
+        "Using publicly available financial statements for analysis"
+      ],
+      "correct_answer": "Guaranteeing a specific return to a client",
+      "explanation": "Guaranteeing returns violates Standard I(C) \u2013 Misrepresentation. Investment performance can never be guaranteed.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Accepting a modest gift from a client after full disclosure",
+        "Refusing to trade on material nonpublic information",
+        "Guaranteeing a specific return to a client",
+        "Using publicly available financial statements for analysis"
+      ]
+    },
+    {
+      "id": "QM-009",
+      "topic": "Quantitative Methods",
+      "difficulty": "Easy",
+      "question": "A stock has monthly returns of 2%, 3%, and 1%. What is the geometric mean return?",
+      "choices": [
+        "1.99%",
+        "2.00%",
+        "2.33%",
+        "2.20%"
+      ],
+      "correct_answer": "1.99%",
+      "explanation": "Geometric mean = [(1.02)(1.03)(1.01)]^(1/3) - 1 \u2248 0.0199 or 1.99%",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "1.99%",
+        "2.00%",
+        "2.33%",
+        "2.20%"
+      ]
+    },
+    {
       "id": "GEN-031",
       "topic": "Financial Reporting & Analysis",
       "difficulty": "Medium",
@@ -1432,6 +1943,56 @@
       ]
     },
     {
+      "id": "ALT-007",
+      "topic": "Alternative Investments",
+      "difficulty": "Easy",
+      "question": "Which of the following investments is LEAST liquid?",
+      "choices": [
+        "Listed REIT",
+        "Private equity",
+        "Publicly traded ETF",
+        "Gold futures"
+      ],
+      "correct_answer": "Private equity",
+      "explanation": "Private equity typically has long lock-up periods, making it less liquid than publicly traded alternatives.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Listed REIT",
+        "Private equity",
+        "Publicly traded ETF",
+        "Gold futures"
+      ]
+    },
+    {
+      "id": "PM-007",
+      "topic": "Portfolio Management",
+      "difficulty": "Medium",
+      "question": "Which statement best describes the Capital Market Line (CML)?",
+      "choices": [
+        "It plots risk-free assets against beta",
+        "It plots all efficient portfolios",
+        "It is the tangent line to the efficient frontier",
+        "It plots all assets in the market"
+      ],
+      "correct_answer": "It is the tangent line to the efficient frontier",
+      "explanation": "CML represents risk-return combinations of efficient portfolios combining the risk-free asset and the market portfolio.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "It plots risk-free assets against beta",
+        "It plots all efficient portfolios",
+        "It is the tangent line to the efficient frontier",
+        "It plots all assets in the market"
+      ]
+    },
+    {
       "id": "ECON-008",
       "topic": "Economics",
       "difficulty": "Medium",
@@ -1457,6 +2018,56 @@
       ]
     },
     {
+      "id": "GEN-034",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Hard",
+      "question": "Under the CFA Code and Standards, members must dissociate from unethical behavior by:",
+      "choices": [
+        "Discussing it with the perpetrator only",
+        "Reporting to compliance or authorities",
+        "Ignoring it if not directly involved",
+        "Waiting until harm is evident"
+      ],
+      "correct_answer": "Reporting to compliance or authorities",
+      "explanation": "Members are required to dissociate and report unethical activities when possible, per Standard I(A).",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Discussing it with the perpetrator only",
+        "Reporting to compliance or authorities",
+        "Ignoring it if not directly involved",
+        "Waiting until harm is evident"
+      ]
+    },
+    {
+      "id": "QM-010",
+      "topic": "Quantitative Methods",
+      "difficulty": "Medium",
+      "question": "Which statistic is LEAST sensitive to outliers?",
+      "choices": [
+        "Mean",
+        "Standard deviation",
+        "Median",
+        "Range"
+      ],
+      "correct_answer": "Median",
+      "explanation": "The median is robust to outliers, unlike the mean, range, and standard deviation.",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "Mean",
+        "Standard deviation",
+        "Median",
+        "Range"
+      ]
+    },
+    {
       "id": "GEN-035",
       "topic": "Financial Reporting & Analysis",
       "difficulty": "Easy",
@@ -1479,6 +2090,31 @@
         "LIFO",
         "Weighted average",
         "Specific identification"
+      ]
+    },
+    {
+      "id": "GEN-036",
+      "topic": "Equity Investments",
+      "difficulty": "Medium",
+      "question": "A firm has ROE of 12%, a payout ratio of 40%, and current EPS of $5. The justified P/E ratio is closest to:",
+      "choices": [
+        "11.2",
+        "10.5",
+        "12.0",
+        "9.6"
+      ],
+      "correct_answer": "11.2",
+      "explanation": "g = ROE \u00d7 (1 - payout) = 12% \u00d7 0.6 = 7.2%. Justified P/E = (1 \u2013 b) / (r \u2013 g) = 0.4 / (0.12 \u2013 0.072) = 11.2",
+      "subtopic": "General Concepts",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "LOS TBD",
+      "image": null,
+      "options": [
+        "11.2",
+        "10.5",
+        "12.0",
+        "9.6"
       ]
     },
     {
@@ -1807,3062 +2443,2303 @@
       ]
     },
     {
-      "id": "GEN-E-001",
-      "topic": "Portfolio Management",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 1 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-002",
-      "topic": "Equity Investments",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 2 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-003",
-      "topic": "Fixed Income",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 3 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-004",
-      "topic": "Fixed Income",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 4 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-005",
-      "topic": "Equity Investments",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 5 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-006",
-      "topic": "Alternative Investments",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 6 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-007",
-      "topic": "Corporate Issuers",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 7 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-008",
-      "topic": "Alternative Investments",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 8 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-009",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 9 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-010",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 10 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-011",
-      "topic": "Fixed Income",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 11 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-012",
-      "topic": "Portfolio Management",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 12 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-013",
-      "topic": "Equity Investments",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 13 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-014",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 14 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-015",
-      "topic": "Portfolio Management",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 15 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-016",
-      "topic": "Economics",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 16 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-017",
-      "topic": "Equity Investments",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 17 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-018",
-      "topic": "Quantitative Methods",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 18 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-019",
-      "topic": "Equity Investments",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 19 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-020",
-      "topic": "Economics",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 20 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-021",
-      "topic": "Economics",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 21 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-022",
-      "topic": "Corporate Issuers",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 22 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-023",
-      "topic": "Equity Investments",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 23 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-024",
-      "topic": "Fixed Income",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 24 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-025",
-      "topic": "Alternative Investments",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 25 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-026",
-      "topic": "Portfolio Management",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 26 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-027",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 27 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-028",
+      "id": "ETH-1000",
       "topic": "Ethical & Professional Standards",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 28 in a CFA context?",
+      "question": "Placeholder Easy question for Ethical & Professional Standards.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Ethical & Professional Standards.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-029",
+      "id": "ETH-1001",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Ethical & Professional Standards.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Ethical & Professional Standards.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ETH-1002",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Ethical & Professional Standards.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Ethical & Professional Standards.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ETH-1003",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Ethical & Professional Standards.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Ethical & Professional Standards.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ETH-1004",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Ethical & Professional Standards.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Ethical & Professional Standards.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ETH-1005",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Ethical & Professional Standards.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Ethical & Professional Standards.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ETH-1006",
+      "topic": "Ethical & Professional Standards",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Ethical & Professional Standards.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Ethical & Professional Standards.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "QUA-1007",
       "topic": "Quantitative Methods",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 29 in a CFA context?",
+      "question": "Placeholder Easy question for Quantitative Methods.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Quantitative Methods.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-030",
+      "id": "QUA-1008",
+      "topic": "Quantitative Methods",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Quantitative Methods.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Quantitative Methods.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "QUA-1009",
+      "topic": "Quantitative Methods",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Quantitative Methods.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Quantitative Methods.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "QUA-1010",
+      "topic": "Quantitative Methods",
+      "difficulty": "Medium",
+      "question": "Placeholder Medium question for Quantitative Methods.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Medium question in Quantitative Methods.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIN-1011",
+      "topic": "Financial Reporting & Analysis",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Financial Reporting & Analysis.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Financial Reporting & Analysis.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIN-1012",
+      "topic": "Financial Reporting & Analysis",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Financial Reporting & Analysis.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Financial Reporting & Analysis.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIN-1013",
+      "topic": "Financial Reporting & Analysis",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Financial Reporting & Analysis.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Financial Reporting & Analysis.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIN-1014",
+      "topic": "Financial Reporting & Analysis",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Financial Reporting & Analysis.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Financial Reporting & Analysis.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIN-1015",
+      "topic": "Financial Reporting & Analysis",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Financial Reporting & Analysis.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Financial Reporting & Analysis.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIN-1016",
+      "topic": "Financial Reporting & Analysis",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Financial Reporting & Analysis.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Financial Reporting & Analysis.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIN-1017",
+      "topic": "Financial Reporting & Analysis",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Financial Reporting & Analysis.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Financial Reporting & Analysis.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1018",
       "topic": "Fixed Income",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 30 in a CFA context?",
+      "question": "Placeholder Easy question for Fixed Income.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-031",
+      "id": "FIX-1019",
+      "topic": "Fixed Income",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1020",
+      "topic": "Fixed Income",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1021",
+      "topic": "Fixed Income",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1022",
+      "topic": "Fixed Income",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1023",
+      "topic": "Fixed Income",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1024",
+      "topic": "Fixed Income",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1025",
+      "topic": "Fixed Income",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1026",
+      "topic": "Fixed Income",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1027",
+      "topic": "Fixed Income",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1028",
+      "topic": "Fixed Income",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1029",
+      "topic": "Fixed Income",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1030",
+      "topic": "Fixed Income",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1031",
+      "topic": "Fixed Income",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1032",
+      "topic": "Fixed Income",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "FIX-1033",
+      "topic": "Fixed Income",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Fixed Income.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Fixed Income.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ECO-1034",
       "topic": "Economics",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 31 in a CFA context?",
+      "question": "Placeholder Easy question for Economics.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Economics.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-032",
-      "topic": "Equity Investments",
+      "id": "ECO-1035",
+      "topic": "Economics",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 32 in a CFA context?",
+      "question": "Placeholder Easy question for Economics.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Economics.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-033",
-      "topic": "Quantitative Methods",
+      "id": "ECO-1036",
+      "topic": "Economics",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 33 in a CFA context?",
+      "question": "Placeholder Easy question for Economics.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Economics.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-034",
-      "topic": "Portfolio Management",
+      "id": "ECO-1037",
+      "topic": "Economics",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 34 in a CFA context?",
+      "question": "Placeholder Easy question for Economics.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Economics.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-035",
+      "id": "ECO-1038",
+      "topic": "Economics",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Economics.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Economics.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ECO-1039",
+      "topic": "Economics",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Economics.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Economics.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ECO-1040",
+      "topic": "Economics",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Economics.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Economics.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ECO-1041",
+      "topic": "Economics",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Economics.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Economics.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ECO-1042",
+      "topic": "Economics",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Economics.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Economics.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ECO-1043",
+      "topic": "Economics",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Economics.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Economics.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ECO-1044",
+      "topic": "Economics",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Economics.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Economics.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ECO-1045",
+      "topic": "Economics",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Economics.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Economics.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "COR-1046",
       "topic": "Corporate Issuers",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 35 in a CFA context?",
+      "question": "Placeholder Easy question for Corporate Issuers.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Corporate Issuers.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-036",
-      "topic": "Fixed Income",
+      "id": "COR-1047",
+      "topic": "Corporate Issuers",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 36 in a CFA context?",
+      "question": "Placeholder Easy question for Corporate Issuers.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Corporate Issuers.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-037",
+      "id": "COR-1048",
+      "topic": "Corporate Issuers",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Corporate Issuers.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Corporate Issuers.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "COR-1049",
+      "topic": "Corporate Issuers",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Corporate Issuers.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Corporate Issuers.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "COR-1050",
+      "topic": "Corporate Issuers",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Corporate Issuers.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Corporate Issuers.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "COR-1051",
+      "topic": "Corporate Issuers",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Corporate Issuers.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Corporate Issuers.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "COR-1052",
+      "topic": "Corporate Issuers",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Corporate Issuers.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Corporate Issuers.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "COR-1053",
+      "topic": "Corporate Issuers",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Corporate Issuers.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Corporate Issuers.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "COR-1054",
+      "topic": "Corporate Issuers",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Corporate Issuers.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Corporate Issuers.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "COR-1055",
+      "topic": "Corporate Issuers",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Corporate Issuers.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Corporate Issuers.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "COR-1056",
+      "topic": "Corporate Issuers",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Corporate Issuers.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Corporate Issuers.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "COR-1057",
+      "topic": "Corporate Issuers",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Corporate Issuers.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Corporate Issuers.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "EQU-1058",
+      "topic": "Equity Investments",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Equity Investments.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Equity Investments.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "EQU-1059",
+      "topic": "Equity Investments",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Equity Investments.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Equity Investments.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "EQU-1060",
+      "topic": "Equity Investments",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Equity Investments.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Equity Investments.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "EQU-1061",
+      "topic": "Equity Investments",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Equity Investments.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Equity Investments.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "EQU-1062",
+      "topic": "Equity Investments",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Equity Investments.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Equity Investments.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "DER-1063",
       "topic": "Derivatives",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 37 in a CFA context?",
+      "question": "Placeholder Easy question for Derivatives.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Derivatives.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-038",
-      "topic": "Alternative Investments",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 38 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-039",
-      "topic": "Ethical & Professional Standards",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 39 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-040",
-      "topic": "Alternative Investments",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 40 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-041",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 41 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-042",
-      "topic": "Quantitative Methods",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 42 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-043",
-      "topic": "Corporate Issuers",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 43 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-E-044",
+      "id": "DER-1064",
       "topic": "Derivatives",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 44 in a CFA context?",
+      "question": "Placeholder Easy question for Derivatives.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Derivatives.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-045",
-      "topic": "Ethical & Professional Standards",
+      "id": "DER-1065",
+      "topic": "Derivatives",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 45 in a CFA context?",
+      "question": "Placeholder Easy question for Derivatives.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Derivatives.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-046",
-      "topic": "Portfolio Management",
+      "id": "DER-1066",
+      "topic": "Derivatives",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 46 in a CFA context?",
+      "question": "Placeholder Easy question for Derivatives.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Derivatives.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-047",
-      "topic": "Fixed Income",
+      "id": "DER-1067",
+      "topic": "Derivatives",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 47 in a CFA context?",
+      "question": "Placeholder Easy question for Derivatives.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Derivatives.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-048",
-      "topic": "Economics",
+      "id": "DER-1068",
+      "topic": "Derivatives",
       "difficulty": "Easy",
-      "question": "What is the main purpose of question 48 in a CFA context?",
+      "question": "Placeholder Easy question for Derivatives.",
       "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Derivatives.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-E-049",
-      "topic": "Alternative Investments",
-      "difficulty": "Easy",
-      "question": "What is the main purpose of question 49 in a CFA context?",
-      "choices": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ],
-      "correct_answer": "To evaluate basic concepts.",
-      "explanation": "Easy CFA questions are designed to ensure foundational knowledge is in place.",
-      "subtopic": "Foundations",
-      "formula_used": "None",
-      "keywords": [
-        "CFA basics"
-      ],
-      "LOS_reference": "LOS GEN-EASY",
-      "image": null,
-      "options": [
-        "To confuse test-takers.",
-        "To assess ethical standards.",
-        "To evaluate basic concepts.",
-        "To increase test length."
-      ]
-    },
-    {
-      "id": "GEN-M-001",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 1?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-002",
-      "topic": "Quantitative Methods",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 2?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-003",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 3?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-004",
-      "topic": "Quantitative Methods",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 4?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-005",
-      "topic": "Equity Investments",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 5?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-006",
-      "topic": "Alternative Investments",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 6?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-007",
-      "topic": "Equity Investments",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 7?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-008",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 8?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-009",
-      "topic": "Economics",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 9?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-010",
-      "topic": "Corporate Issuers",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 10?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-011",
-      "topic": "Economics",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 11?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-012",
-      "topic": "Economics",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 12?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-013",
-      "topic": "Corporate Issuers",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 13?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-014",
-      "topic": "Equity Investments",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 14?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-015",
-      "topic": "Ethical & Professional Standards",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 15?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-M-016",
-      "topic": "Corporate Issuers",
-      "difficulty": "Medium",
-      "question": "Which of the following best illustrates a key CFA concept for scenario 16?",
-      "choices": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ],
-      "correct_answer": "Applying fundamental valuation techniques.",
-      "explanation": "This reflects a typical mid-level CFA competency in evaluating investments.",
-      "subtopic": "Applied Analysis",
-      "formula_used": "None",
-      "keywords": [
-        "valuation",
-        "analysis"
-      ],
-      "LOS_reference": "LOS GEN-MEDIUM",
-      "image": null,
-      "options": [
-        "Ignoring compliance procedures.",
-        "Applying fundamental valuation techniques.",
-        "Trading without client consent.",
-        "Using misleading financial metrics."
-      ]
-    },
-    {
-      "id": "GEN-H-001",
-      "topic": "Fixed Income",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (1) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-002",
-      "topic": "Corporate Issuers",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (2) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-003",
-      "topic": "Quantitative Methods",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (3) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-004",
-      "topic": "Quantitative Methods",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (4) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-005",
-      "topic": "Quantitative Methods",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (5) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-006",
-      "topic": "Economics",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (6) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-007",
-      "topic": "Alternative Investments",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (7) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-008",
-      "topic": "Ethical & Professional Standards",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (8) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-009",
-      "topic": "Portfolio Management",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (9) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-010",
-      "topic": "Economics",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (10) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-011",
-      "topic": "Equity Investments",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (11) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-012",
-      "topic": "Equity Investments",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (12) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-013",
+      "id": "DER-1069",
       "topic": "Derivatives",
       "difficulty": "Hard",
-      "question": "A complex CFA scenario (13) requires evaluating which principle?",
+      "question": "Placeholder Hard question for Derivatives.",
       "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Derivatives.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-H-014",
-      "topic": "Ethical & Professional Standards",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (14) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-015",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (15) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-016",
-      "topic": "Economics",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (16) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-017",
-      "topic": "Equity Investments",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (17) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-018",
-      "topic": "Alternative Investments",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (18) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-019",
-      "topic": "Economics",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (19) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-020",
-      "topic": "Alternative Investments",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (20) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-021",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (21) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-022",
-      "topic": "Fixed Income",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (22) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-023",
-      "topic": "Portfolio Management",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (23) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-024",
-      "topic": "Portfolio Management",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (24) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-025",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (25) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-026",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (26) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-027",
-      "topic": "Fixed Income",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (27) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-028",
-      "topic": "Portfolio Management",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (28) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-029",
-      "topic": "Quantitative Methods",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (29) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-030",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (30) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-031",
-      "topic": "Quantitative Methods",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (31) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-032",
-      "topic": "Economics",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (32) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-033",
-      "topic": "Fixed Income",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (33) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-034",
-      "topic": "Fixed Income",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (34) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-035",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (35) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-036",
-      "topic": "Equity Investments",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (36) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-037",
-      "topic": "Ethical & Professional Standards",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (37) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-038",
-      "topic": "Financial Reporting & Analysis",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (38) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-039",
-      "topic": "Fixed Income",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (39) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-040",
+      "id": "DER-1070",
       "topic": "Derivatives",
       "difficulty": "Hard",
-      "question": "A complex CFA scenario (40) requires evaluating which principle?",
+      "question": "Placeholder Hard question for Derivatives.",
       "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Derivatives.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-H-041",
-      "topic": "Financial Reporting & Analysis",
+      "id": "DER-1071",
+      "topic": "Derivatives",
       "difficulty": "Hard",
-      "question": "A complex CFA scenario (41) requires evaluating which principle?",
+      "question": "Placeholder Hard question for Derivatives.",
       "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Derivatives.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-H-042",
-      "topic": "Fixed Income",
+      "id": "DER-1072",
+      "topic": "Derivatives",
       "difficulty": "Hard",
-      "question": "A complex CFA scenario (42) requires evaluating which principle?",
+      "question": "Placeholder Hard question for Derivatives.",
       "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Derivatives.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-H-043",
-      "topic": "Equity Investments",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (43) requires evaluating which principle?",
+      "id": "ALT-1073",
+      "topic": "Alternative Investments",
+      "difficulty": "Medium",
+      "question": "Placeholder Medium question for Alternative Investments.",
       "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Medium question in Alternative Investments.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     },
     {
-      "id": "GEN-H-044",
-      "topic": "Ethical & Professional Standards",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (44) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-045",
-      "topic": "Economics",
-      "difficulty": "Hard",
-      "question": "A complex CFA scenario (45) requires evaluating which principle?",
-      "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
-      "image": null,
-      "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
-      ]
-    },
-    {
-      "id": "GEN-H-046",
+      "id": "ALT-1074",
       "topic": "Alternative Investments",
       "difficulty": "Hard",
-      "question": "A complex CFA scenario (46) requires evaluating which principle?",
+      "question": "Placeholder Hard question for Alternative Investments.",
       "choices": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ],
-      "correct_answer": "Advanced forecasting with regression models.",
-      "explanation": "This aligns with higher-level analytical skills required at Level I and beyond.",
-      "subtopic": "Advanced Analysis",
-      "formula_used": "y = a + bx",
-      "keywords": [
-        "regression",
-        "forecasting"
-      ],
-      "LOS_reference": "LOS GEN-HARD",
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Alternative Investments.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
       "image": null,
       "options": [
-        "Minimal disclosure obligations.",
-        "Backdating trades for client gain.",
-        "Advanced forecasting with regression models.",
-        "Ignoring external audit findings."
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ALT-1075",
+      "topic": "Alternative Investments",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Alternative Investments.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Alternative Investments.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ALT-1076",
+      "topic": "Alternative Investments",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Alternative Investments.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Alternative Investments.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ALT-1077",
+      "topic": "Alternative Investments",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Alternative Investments.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Alternative Investments.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "ALT-1078",
+      "topic": "Alternative Investments",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Alternative Investments.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Alternative Investments.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1079",
+      "topic": "Portfolio Management",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1080",
+      "topic": "Portfolio Management",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1081",
+      "topic": "Portfolio Management",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1082",
+      "topic": "Portfolio Management",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1083",
+      "topic": "Portfolio Management",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1084",
+      "topic": "Portfolio Management",
+      "difficulty": "Easy",
+      "question": "Placeholder Easy question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Easy question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1085",
+      "topic": "Portfolio Management",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1086",
+      "topic": "Portfolio Management",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1087",
+      "topic": "Portfolio Management",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1088",
+      "topic": "Portfolio Management",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1089",
+      "topic": "Portfolio Management",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1090",
+      "topic": "Portfolio Management",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ]
+    },
+    {
+      "id": "POR-1091",
+      "topic": "Portfolio Management",
+      "difficulty": "Hard",
+      "question": "Placeholder Hard question for Portfolio Management.",
+      "choices": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
+      ],
+      "correct_answer": "Choice A",
+      "explanation": "This is a placeholder explanation for a Hard question in Portfolio Management.",
+      "subtopic": "Placeholder Subtopic",
+      "formula_used": "N/A",
+      "keywords": [],
+      "LOS_reference": "Placeholder LOS",
+      "image": null,
+      "options": [
+        "Choice A",
+        "Choice B",
+        "Choice C",
+        "Choice D"
       ]
     }
   ]
