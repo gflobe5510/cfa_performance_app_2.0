@@ -48,4 +48,114 @@ if "started" not in st.session_state:
         st.stop()
 
 st.success(f"Welcome, {username}! 🎉")
-st.markdown("To begin, choose **Practice** or **Mock Exam** from the menu on the left. You can
+st.markdown("To begin, choose **Practice** or **Mock Exam** from the menu on the left. You can track your results afterward in the **Progress** tab.")
+
+mode = st.sidebar.radio("Choose Mode", ["Practice", "Mock Exam", "Progress"])
+
+# PRACTICE MODE
+if mode == "Practice":
+    st.header("🎯 Practice Questions")
+    selected_topic = st.selectbox("Select Topic", topics)
+    selected_difficulty = st.selectbox("Select Difficulty", difficulties)
+
+    filtered = [q for q in questions if q["topic"] == selected_topic and q["difficulty"] == selected_difficulty]
+    if not filtered:
+        st.warning("No questions found for this selection.")
+        st.stop()
+
+    if "practice_index" not in st.session_state:
+        st.session_state.practice_index = 0
+    if "practice_answers" not in st.session_state:
+        st.session_state.practice_answers = {}
+    if "practice_submitted" not in st.session_state:
+        st.session_state.practice_submitted = {}
+
+    q = filtered[st.session_state.practice_index % len(filtered)]
+    q_key = f"practice_q_{q['id']}"
+    submitted = st.session_state.practice_submitted.get(q_key, False)
+    st.subheader(q["question"])
+
+    user_choice = st.radio("Select your answer:", q["options"], index=None, key=q_key, disabled=submitted)
+
+    if not submitted:
+        submit_btn = st.button("Submit Answer", disabled=user_choice is None)
+        if submit_btn:
+            correct_answer = q.get("correct_answer") or q.get("answer")
+            is_correct = user_choice.strip() == correct_answer.strip()
+            st.session_state.practice_answers[q_key] = user_choice
+            st.session_state.practice_submitted[q_key] = True
+
+            c = db_conn.cursor()
+            c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
+                      (username, q["id"], int(is_correct)))
+            db_conn.commit()
+
+            if is_correct:
+                st.success("Correct! ✅")
+                st.session_state.practice_index += 1
+                st.experimental_rerun()
+            else:
+                st.error(f"Incorrect ❌. Correct answer: {correct_answer}")
+                if q.get("explanation"):
+                    st.markdown(f"**Explanation**: {q['explanation']}")
+    else:
+        prev_choice = st.session_state.practice_answers.get(q_key)
+        st.info(f"You selected: {prev_choice}")
+        correct_answer = q.get("correct_answer") or q.get("answer")
+        if prev_choice.strip() == correct_answer.strip():
+            st.success("Correct ✅")
+        else:
+            st.error(f"Incorrect ❌. Correct answer: {correct_answer}")
+            if q.get("explanation"):
+                st.markdown(f"**Explanation**: {q['explanation']}")
+
+    col1, col2 = st.columns(2)
+    if col1.button("⬅ Previous"):
+        st.session_state.practice_index = (st.session_state.practice_index - 1) % len(filtered)
+        st.experimental_rerun()
+    if col2.button("➡ Next"):
+        st.session_state.practice_index = (st.session_state.practice_index + 1) % len(filtered)
+        st.experimental_rerun()
+
+# MOCK EXAM MODE
+elif mode == "Mock Exam":
+    st.header("🧪 Timed Mock Exam (50 Questions)")
+    if "exam_qs" not in st.session_state:
+        st.session_state.exam_qs = random.sample(questions, min(50, len(questions)))
+        st.session_state.score = 0
+        st.session_state.answered = [None] * len(st.session_state.exam_qs)
+
+    for i, q in enumerate(st.session_state.exam_qs):
+        st.subheader(f"Q{i + 1}: {q['question']}")
+        st.session_state.answered[i] = st.radio(f"Your Answer for Q{i + 1}:", q["options"], index=None, key=f"mock_{i}")
+
+    if st.button("Finish Exam"):
+        score = sum(1 for i, q in enumerate(st.session_state.exam_qs)
+                    if st.session_state.answered[i] and st.session_state.answered[i].strip() == q.get("correct_answer", q.get("answer")).strip())
+        st.success(f"You scored {score}/{len(st.session_state.exam_qs)}")
+        for i, q in enumerate(st.session_state.exam_qs):
+            is_correct = st.session_state.answered[i] and st.session_state.answered[i].strip() == q.get("correct_answer", q.get("answer")).strip()
+            c = db_conn.cursor()
+            c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
+                      (username, q["id"], int(bool(is_correct))))
+            db_conn.commit()
+        del st.session_state.exam_qs
+        del st.session_state.answered
+
+# PROGRESS
+elif mode == "Progress":
+    st.header("📈 Progress Tracker")
+    try:
+        df = pd.read_sql_query("SELECT * FROM results WHERE username = ?", db_conn, params=(username,))
+    except:
+        df = None
+
+    if df is not None and not df.empty:
+        total = df.shape[0]
+        correct = df[df.correct == 1].shape[0]
+        accuracy = round(correct / total * 100, 2) if total > 0 else 0
+        st.metric("Total Attempted", total)
+        st.metric("Correct", correct)
+        st.metric("Accuracy (%)", accuracy)
+    else:
+        st.info("Answer some questions to see your stats!")
