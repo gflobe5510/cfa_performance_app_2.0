@@ -1,4 +1,3 @@
-
 import streamlit as st
 import json
 import random
@@ -25,28 +24,20 @@ def init_db():
     conn = sqlite3.connect("results.db")
     c = conn.cursor()
     c.execute('''CREATE TABLE IF NOT EXISTS results (
-                username TEXT, 
-                question_id TEXT, 
-                correct INTEGER, 
-                flagged INTEGER DEFAULT 0
-                )''')
+                 username TEXT, 
+                 question_id INTEGER, 
+                 correct INTEGER, 
+                 flagged INTEGER DEFAULT 0
+                 )''')
     conn.commit()
     return conn
 
 db_conn = init_db()
 
 # Sidebar user setup
-username = st.sidebar.text_input("Enter your name", help="To begin practicing, type your name and hit Enter.")
+username = st.sidebar.text_input("Enter your name")
 if not username:
     st.stop()
-
-if "started" not in st.session_state:
-    if st.sidebar.button("🚀 Start App"):
-        st.session_state.started = True
-    else:
-        st.markdown("### Welcome to CFA Practice App 2.0!")
-        st.markdown("To begin, enter your name in the sidebar and click 'Start App'.")
-        st.stop()
 
 # App Tabs
 mode = st.sidebar.radio("Choose Mode", ["Practice", "Mock Exam", "Progress"])
@@ -63,28 +54,15 @@ if mode == "Practice":
     else:
         q = random.choice(filtered)
         st.subheader(q["question"])
-        answer_key = f"answer_{q['id']}"
-        user_choice = st.radio("Select your answer:", q["options"], index=None, key=answer_key)
-
-        if st.button("Submit Answer"):
-            if not user_choice:
-                st.warning("Please select an answer before submitting.")
-            else:
-                correct_answer = q.get("correct_answer") or q.get("answer")
-                is_correct = user_choice.split(".")[0] == correct_answer.split(".")[0]
-                if is_correct:
-                    st.success("Correct! ✅")
-                else:
-                    st.error(f"Incorrect ❌. Correct answer: {correct_answer}")
-
-                explanation = q.get("explanation")
-                if explanation:
-                    st.markdown(f"**Explanation**: {explanation}")
-
-                c = db_conn.cursor()
-                c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
-                          (username, q["id"], int(is_correct)))
-                db_conn.commit()
+        user_choice = st.radio("Select your answer:", q["options"], index=None, key="practice_choice")
+        if st.button("Submit"):
+            is_correct = user_choice and user_choice.split(".")[0] == q["answer"]
+            st.success("Correct! ✅" if is_correct else f"Incorrect ❌. Correct answer: {q['answer']}")
+            st.markdown(f"**Explanation**: {q['explanation']}")
+            c = db_conn.cursor()
+            c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
+                      (username, q["id"], int(is_correct)))
+            db_conn.commit()
 
 # Mock Exam Mode
 elif mode == "Mock Exam":
@@ -96,15 +74,16 @@ elif mode == "Mock Exam":
 
     for i, q in enumerate(st.session_state.exam_qs):
         st.subheader(f"Q{i + 1}: {q['question']}")
-        st.session_state.answered[i] = st.radio(f"Your Answer for Q{i + 1}:", q["options"], index=None, key=f"mock_{i}")
+        user_choice = st.radio(f"Your Answer for Q{i + 1}:", q["options"], index=None, key=f"mock_{i}")
+        st.session_state.answered[i] = user_choice
 
     if st.button("Finish Exam"):
         score = sum(1 for i, q in enumerate(st.session_state.exam_qs)
-                    if st.session_state.answered[i] and st.session_state.answered[i].split(".")[0] == q.get("correct_answer", q.get("answer")).split(".")[0])
+                    if st.session_state.answered[i] and st.session_state.answered[i].split(".")[0] == q["answer"])
         st.success(f"You scored {score}/{len(st.session_state.exam_qs)}")
         for i, q in enumerate(st.session_state.exam_qs):
             c = db_conn.cursor()
-            is_correct = st.session_state.answered[i] and st.session_state.answered[i].split(".")[0] == q.get("correct_answer", q.get("answer")).split(".")[0]
+            is_correct = st.session_state.answered[i] and st.session_state.answered[i].split(".")[0] == q["answer"]
             c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
                       (username, q["id"], int(bool(is_correct))))
         db_conn.commit()
