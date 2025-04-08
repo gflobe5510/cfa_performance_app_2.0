@@ -1,6 +1,7 @@
 import streamlit as st
 import json
 import random
+import os
 import sqlite3
 import pandas as pd
 
@@ -39,7 +40,7 @@ if not username:
     st.stop()
 
 if "started" not in st.session_state:
-    if st.sidebar.button("🚀 Start App"):
+    if st.sidebar.button("\U0001F680 Start App"):
         st.session_state.started = True
     else:
         st.markdown("### Welcome to CFA Practice App 2.0!")
@@ -78,7 +79,7 @@ if mode == "Practice":
 
     if not submitted:
         submit_btn = st.button("Submit Answer", disabled=user_choice is None)
-        if submit_btn and user_choice:
+        if submit_btn:
             correct_answer = q.get("correct_answer") or q.get("answer")
             is_correct = user_choice.strip() == correct_answer.strip()
             st.session_state.practice_answers[q_key] = user_choice
@@ -93,7 +94,7 @@ if mode == "Practice":
                 st.success("Correct! ✅")
                 st.session_state.practice_index += 1
                 st.experimental_rerun()
-                st.stop()
+                st.stop()  # <- Prevent code after rerun
             else:
                 st.error(f"Incorrect ❌. Correct answer: {correct_answer}")
                 if q.get("explanation"):
