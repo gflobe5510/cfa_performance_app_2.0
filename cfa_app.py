@@ -38,7 +38,8 @@ if mode == "Practice by Topic":
         user_choice = st.radio("Select your answer:", q["options"], index=None)
 
         if st.button("Submit Answer"):
-            is_correct = user_choice and user_choice.split(".")[0] == q["answer"]
+            correct = q.get("correct_answer", q.get("answer"))
+            is_correct = user_choice and user_choice.split(".")[0] == correct.split(".")[0]
             st.session_state.results.append({
                 "topic": q["topic"],
                 "correct": is_correct
@@ -47,7 +48,7 @@ if mode == "Practice by Topic":
             if is_correct:
                 st.success("Correct! ✅")
             else:
-                st.error(f"Incorrect ❌. Correct answer: {q['answer']}")
+                st.error(f"Incorrect ❌. Correct answer: {correct}")
                 st.markdown(f"**Explanation**: {q.get('explanation', 'No explanation provided.')}")
     else:
         st.warning("No questions found for this combination.")
@@ -68,12 +69,13 @@ elif mode == "Full Practice Exam":
         score = 0
         for i, q in enumerate(st.session_state.exam_questions):
             selected = st.session_state.exam_answers[i]
-            if selected and selected.split(".")[0] == q["answer"]:
+            correct = q.get("correct_answer", q.get("answer"))
+            if selected and selected.split(".")[0] == correct.split(".")[0]:
                 score += 1
-                correct = True
+                correct_bool = True
             else:
-                correct = False
-            st.session_state.results.append({"topic": q["topic"], "correct": correct})
+                correct_bool = False
+            st.session_state.results.append({"topic": q["topic"], "correct": correct_bool})
 
         st.success(f"You scored {score}/50")
         del st.session_state.exam_questions
