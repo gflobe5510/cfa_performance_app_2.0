@@ -40,7 +40,7 @@ if not username:
     st.stop()
 
 if "started" not in st.session_state:
-    if st.sidebar.button("\U0001F680 Start App"):
+    if st.sidebar.button("🚀 Start App"):
         st.session_state.started = True
     else:
         st.markdown("### Welcome to CFA Practice App 2.0!")
@@ -93,8 +93,7 @@ if mode == "Practice":
             if is_correct:
                 st.success("Correct! ✅")
                 st.session_state.practice_index += 1
-                st.experimental_rerun()
-                st.stop()  # <- Prevent code after rerun
+                st.rerun()
             else:
                 st.error(f"Incorrect ❌. Correct answer: {correct_answer}")
                 if q.get("explanation"):
@@ -113,10 +112,10 @@ if mode == "Practice":
     col1, col2 = st.columns(2)
     if col1.button("⬅ Previous"):
         st.session_state.practice_index = (st.session_state.practice_index - 1) % len(filtered)
-        st.experimental_rerun()
+        st.rerun()
     if col2.button("➡ Next"):
         st.session_state.practice_index = (st.session_state.practice_index + 1) % len(filtered)
-        st.experimental_rerun()
+        st.rerun()
 
 # MOCK EXAM MODE
 elif mode == "Mock Exam":
