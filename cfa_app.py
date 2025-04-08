@@ -40,21 +40,26 @@ if not username:
     st.stop()
 
 if "started" not in st.session_state:
-    if st.sidebar.button("🚀 Start App"):
+    if st.sidebar.button("\U0001F680 Start App"):
         st.session_state.started = True
     else:
         st.markdown("### Welcome to CFA Practice App 2.0!")
         st.markdown("To begin, enter your name in the sidebar and click 'Start App'.")
         st.stop()
 
-st.success(f"Welcome, {username}! 🎉")
+# Safe rerun trigger
+if st.session_state.get("trigger_rerun", False):
+    st.session_state.trigger_rerun = False
+    st.experimental_rerun()
+
+st.success(f"Welcome, {username}! \U0001F389")
 st.markdown("To begin, choose **Practice** or **Mock Exam** from the menu on the left. You can track your results afterward in the **Progress** tab.")
 
 mode = st.sidebar.radio("Choose Mode", ["Practice", "Mock Exam", "Progress"])
 
 # PRACTICE MODE
 if mode == "Practice":
-    st.header("🎯 Practice Questions")
+    st.header("\U0001F3AF Practice Questions")
     selected_topic = st.selectbox("Select Topic", topics)
     selected_difficulty = st.selectbox("Select Difficulty", difficulties)
 
@@ -75,6 +80,7 @@ if mode == "Practice":
     submitted = st.session_state.practice_submitted.get(q_key, False)
 
     st.subheader(q["question"])
+
     user_choice = st.radio("Select your answer:", q["options"], index=None, key=q_key, disabled=submitted)
 
     if not submitted:
@@ -93,7 +99,7 @@ if mode == "Practice":
             if is_correct:
                 st.success("Correct! ✅")
                 st.session_state.practice_index += 1
-                st.experimental_rerun()
+                st.session_state.trigger_rerun = True
             else:
                 st.error(f"Incorrect ❌. Correct answer: {correct_answer}")
                 if q.get("explanation"):
@@ -113,13 +119,13 @@ if mode == "Practice":
     if col1.button("⬅ Previous"):
         st.session_state.practice_index = (st.session_state.practice_index - 1) % len(filtered)
         st.experimental_rerun()
-    if col2.button("➡ Next", disabled=not submitted):
+    if col2.button("➡ Next"):
         st.session_state.practice_index = (st.session_state.practice_index + 1) % len(filtered)
         st.experimental_rerun()
 
 # MOCK EXAM MODE
 elif mode == "Mock Exam":
-    st.header("🧪 Timed Mock Exam (50 Questions)")
+    st.header("\U0001F9EA Timed Mock Exam (50 Questions)")
     if "exam_qs" not in st.session_state:
         st.session_state.exam_qs = random.sample(questions, min(50, len(questions)))
         st.session_state.score = 0
@@ -144,7 +150,7 @@ elif mode == "Mock Exam":
 
 # PROGRESS
 elif mode == "Progress":
-    st.header("📈 Progress Tracker")
+    st.header("\U0001F4C8 Progress Tracker")
     try:
         df = pd.read_sql_query("SELECT * FROM results WHERE username = ?", db_conn, params=(username,))
     except:
