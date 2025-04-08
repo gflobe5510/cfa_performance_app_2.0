@@ -73,8 +73,8 @@ if mode == "Practice":
     q = filtered[st.session_state.practice_index % len(filtered)]
     q_key = f"practice_q_{q['id']}"
     submitted = st.session_state.practice_submitted.get(q_key, False)
-    st.subheader(q["question"])
 
+    st.subheader(q["question"])
     user_choice = st.radio("Select your answer:", q["options"], index=None, key=q_key, disabled=submitted)
 
     if not submitted:
@@ -113,7 +113,7 @@ if mode == "Practice":
     if col1.button("⬅ Previous"):
         st.session_state.practice_index = (st.session_state.practice_index - 1) % len(filtered)
         st.experimental_rerun()
-    if col2.button("➡ Next"):
+    if col2.button("➡ Next", disabled=not submitted):
         st.session_state.practice_index = (st.session_state.practice_index + 1) % len(filtered)
         st.experimental_rerun()
 
