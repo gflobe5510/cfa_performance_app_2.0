@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="CFA Practice App", layout="wide")
-st.title("📊 CFA Practice App")
+st.title("\U0001F4CA CFA Practice App")
 
 # Load Questions JSON
 def load_questions():
@@ -26,36 +26,57 @@ mode = st.sidebar.radio("Select Mode", ["Practice by Topic", "Full Practice Exam
 
 # Practice by Topic
 if mode == "Practice by Topic":
-    st.header("🎯 Practice by Topic")
+    st.header("\U0001F3AF Practice by Topic")
     topic = st.selectbox("Choose a Topic", topics)
     difficulty = st.selectbox("Choose Difficulty", difficulties)
 
     filtered = [q for q in questions if q["topic"] == topic and q["difficulty"] == difficulty]
 
     if filtered:
-        q = random.choice(filtered)
+        if "practice_index" not in st.session_state:
+            st.session_state.practice_index = 0
+            st.session_state.practice_locked = False
+            st.session_state.practice_answer = None
+
+        q = filtered[st.session_state.practice_index % len(filtered)]
         st.subheader(q["question"])
-        user_choice = st.radio("Select your answer:", q["options"], index=None)
 
-        if st.button("Submit Answer"):
-            correct = q.get("correct_answer", q.get("answer"))
-            is_correct = user_choice and user_choice.split(".")[0] == correct.split(".")[0]
-            st.session_state.results.append({
-                "topic": q["topic"],
-                "correct": is_correct
-            })
+        user_choice = st.radio("Select your answer:", q["options"], index=None, key="practice_choice", disabled=st.session_state.practice_locked)
 
-            if is_correct:
-                st.success("Correct! ✅")
-            else:
-                st.error(f"Incorrect ❌. Correct answer: {correct}")
-                st.markdown(f"**Explanation**: {q.get('explanation', 'No explanation provided.')}")
+        if not st.session_state.practice_locked:
+            submit_disabled = user_choice is None
+            if st.button("Submit Answer", disabled=submit_disabled):
+                correct = q.get("correct_answer", q.get("answer"))
+                selected_letter = user_choice.split(".")[0] if user_choice else ""
+                correct_letter = correct.split(".")[0] if correct else ""
+                is_correct = selected_letter == correct_letter
+
+                st.session_state.results.append({
+                    "topic": q["topic"],
+                    "correct": is_correct
+                })
+
+                if is_correct:
+                    st.success("Correct! ✅")
+                    st.session_state.practice_index += 1
+                else:
+                    st.error(f"Incorrect ❌. Correct answer: {correct}")
+                    st.markdown(f"**Explanation**: {q.get('explanation', 'No explanation provided.')}")
+
+                st.session_state.practice_locked = True
+                st.session_state.practice_answer = user_choice
+        else:
+            if st.button("Next Question"):
+                st.session_state.practice_index += 1
+                st.session_state.practice_locked = False
+                st.session_state.practice_answer = None
+                st.experimental_rerun()
     else:
         st.warning("No questions found for this combination.")
 
 # Full Practice Exam
 elif mode == "Full Practice Exam":
-    st.header("🧪 Full Practice Exam")
+    st.header("\U0001F9EA Full Practice Exam")
 
     if "exam_questions" not in st.session_state:
         st.session_state.exam_questions = random.sample(questions, 50)
@@ -70,12 +91,12 @@ elif mode == "Full Practice Exam":
         for i, q in enumerate(st.session_state.exam_questions):
             selected = st.session_state.exam_answers[i]
             correct = q.get("correct_answer", q.get("answer"))
-            if selected and selected.split(".")[0] == correct.split(".")[0]:
+            selected_letter = selected.split(".")[0] if selected else ""
+            correct_letter = correct.split(".")[0] if correct else ""
+            is_correct = selected_letter == correct_letter
+            if is_correct:
                 score += 1
-                correct_bool = True
-            else:
-                correct_bool = False
-            st.session_state.results.append({"topic": q["topic"], "correct": correct_bool})
+            st.session_state.results.append({"topic": q["topic"], "correct": is_correct})
 
         st.success(f"You scored {score}/50")
         del st.session_state.exam_questions
@@ -83,7 +104,7 @@ elif mode == "Full Practice Exam":
 
 # Progress Tracker
 elif mode == "Progress Tracker":
-    st.header("📈 Progress Tracker")
+    st.header("\U0001F4C8 Progress Tracker")
 
     if st.session_state.results:
         df = pd.DataFrame(st.session_state.results)
