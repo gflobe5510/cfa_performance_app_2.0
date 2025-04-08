@@ -33,6 +33,11 @@ def init_db():
 
 db_conn = init_db()
 
+# Safe rerun check
+if st.session_state.get("trigger_rerun"):
+    st.session_state.trigger_rerun = False
+    st.experimental_rerun()
+
 # Sidebar login
 username = st.sidebar.text_input("Enter your name", help="To begin practicing, type your name and hit Enter.")
 if not username:
@@ -46,11 +51,6 @@ if "started" not in st.session_state:
         st.markdown("### Welcome to CFA Practice App 2.0!")
         st.markdown("To begin, enter your name in the sidebar and click 'Start App'.")
         st.stop()
-
-# Handle safe rerun
-if st.session_state.get("trigger_rerun"):
-    st.session_state.trigger_rerun = False
-    st.experimental_rerun()
 
 st.success(f"Welcome, {username}! 🎉")
 st.markdown("To begin, choose **Practice** or **Mock Exam** from the menu on the left. You can track your results afterward in the **Progress** tab.")
@@ -150,7 +150,7 @@ elif mode == "Mock Exam":
         del st.session_state.exam_qs
         del st.session_state.answered
 
-# PROGRESS MODE
+# PROGRESS
 elif mode == "Progress":
     st.header("📈 Progress Tracker")
     try:
