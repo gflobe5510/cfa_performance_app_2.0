@@ -1,6 +1,8 @@
 import streamlit as st
 import json
 import random
+import pandas as pd
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="CFA Practice App", layout="wide")
 st.title("📊 CFA Practice App")
@@ -12,41 +14,89 @@ def load_questions():
     return data["questions"]
 
 questions = load_questions()
+topics = sorted(set(q["topic"] for q in questions))
+difficulties = ["Easy", "Medium", "Hard"]
 
-# Initialize session state
-if "question_index" not in st.session_state:
-    st.session_state.question_index = 0
-    st.session_state.answered = False
-    st.session_state.correct = None
+# Initialize session state for tracking results
+if "results" not in st.session_state:
+    st.session_state.results = []
 
-# Get current question
-if questions:
-    q = questions[st.session_state.question_index]
-    st.subheader(f"Q{st.session_state.question_index + 1}: {q['question']}")
+# Navigation
+mode = st.sidebar.radio("Select Mode", ["Practice by Topic", "Full Practice Exam", "Progress Tracker"])
 
-    if not st.session_state.answered:
-        user_choice = st.radio("Select your answer:", q["options"], key=f"question_{st.session_state.question_index}")
-        if st.button("Submit"):
-            correct_answer = q.get("correct_answer") or q.get("answer")
-            is_correct = user_choice.strip().split(".")[0] == correct_answer.strip().split(".")[0]
-            st.session_state.answered = True
-            st.session_state.correct = is_correct
+# Practice by Topic
+if mode == "Practice by Topic":
+    st.header("🎯 Practice by Topic")
+    topic = st.selectbox("Choose a Topic", topics)
+    difficulty = st.selectbox("Choose Difficulty", difficulties)
+
+    filtered = [q for q in questions if q["topic"] == topic and q["difficulty"] == difficulty]
+
+    if filtered:
+        q = random.choice(filtered)
+        st.subheader(q["question"])
+        user_choice = st.radio("Select your answer:", q["options"], index=None)
+
+        if st.button("Submit Answer"):
+            is_correct = user_choice and user_choice.split(".")[0] == q["answer"]
+            st.session_state.results.append({
+                "topic": q["topic"],
+                "correct": is_correct
+            })
+
+            if is_correct:
+                st.success("Correct! ✅")
+            else:
+                st.error(f"Incorrect ❌. Correct answer: {q['answer']}")
+                st.markdown(f"**Explanation**: {q.get('explanation', 'No explanation provided.')}")
     else:
-        if st.session_state.correct:
-            st.success("Correct ✅")
-        else:
-            st.error(f"Incorrect ❌. Correct answer: {q.get('correct_answer') or q.get('answer')}")
-            if q.get("explanation"):
-                st.markdown(f"**Explanation:** {q['explanation']}")
+        st.warning("No questions found for this combination.")
 
-        col1, col2 = st.columns(2)
-        with col1:
-            if st.button("Previous") and st.session_state.question_index > 0:
-                st.session_state.question_index -= 1
-                st.session_state.answered = False
-        with col2:
-            if st.button("Next") and st.session_state.question_index < len(questions) - 1:
-                st.session_state.question_index += 1
-                st.session_state.answered = False
-else:
-    st.warning("No questions available.")
+# Full Practice Exam
+elif mode == "Full Practice Exam":
+    st.header("🧪 Full Practice Exam")
+
+    if "exam_questions" not in st.session_state:
+        st.session_state.exam_questions = random.sample(questions, 50)
+        st.session_state.exam_answers = [None] * 50
+
+    for i, q in enumerate(st.session_state.exam_questions):
+        st.subheader(f"Q{i+1}: {q['question']}")
+        st.session_state.exam_answers[i] = st.radio(f"Your Answer for Q{i+1}", q["options"], index=None, key=f"exam_{i}")
+
+    if st.button("Finish Exam"):
+        score = 0
+        for i, q in enumerate(st.session_state.exam_questions):
+            selected = st.session_state.exam_answers[i]
+            if selected and selected.split(".")[0] == q["answer"]:
+                score += 1
+                correct = True
+            else:
+                correct = False
+            st.session_state.results.append({"topic": q["topic"], "correct": correct})
+
+        st.success(f"You scored {score}/50")
+        del st.session_state.exam_questions
+        del st.session_state.exam_answers
+
+# Progress Tracker
+elif mode == "Progress Tracker":
+    st.header("📈 Progress Tracker")
+
+    if st.session_state.results:
+        df = pd.DataFrame(st.session_state.results)
+        summary = df.groupby("topic")["correct"].agg(["count", "sum"])
+        summary["accuracy"] = summary["sum"] / summary["count"] * 100
+
+        st.dataframe(summary)
+
+        # Bar Chart
+        fig, ax = plt.subplots()
+        summary["accuracy"].plot(kind="bar", ax=ax, color=["green" if x >= 75 else "red" for x in summary["accuracy"]])
+        ax.axhline(75, color="blue", linestyle="--", label="Benchmark (75%)")
+        ax.set_ylabel("Accuracy %")
+        ax.set_title("Accuracy by CFA Topic")
+        ax.legend()
+        st.pyplot(fig)
+    else:
+        st.info("No progress to show yet. Start practicing!")
