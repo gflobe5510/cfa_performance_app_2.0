@@ -73,32 +73,35 @@ if mode == "Practice":
     q = filtered[st.session_state.practice_index % len(filtered)]
     q_key = f"practice_q_{q['id']}"
     submitted = st.session_state.practice_submitted.get(q_key, False)
-    st.subheader(q["question"])
 
+    st.subheader(q["question"])
     user_choice = st.radio("Select your answer:", q["options"], index=None, key=q_key, disabled=submitted)
 
-    if not submitted and user_choice is not None:
-        submit_btn = st.button("Submit Answer")
-        if submit_btn:
-            correct_answer = q.get("correct_answer") or q.get("answer")
-            is_correct = user_choice.strip() == correct_answer.strip()
-            st.session_state.practice_answers[q_key] = user_choice
-            st.session_state.practice_submitted[q_key] = True
+    # Only allow submission if not yet submitted and choice selected
+    if not submitted:
+        if user_choice is not None:
+            if st.button("Submit Answer"):
+                correct_answer = q.get("correct_answer") or q.get("answer")
+                is_correct = user_choice.strip() == correct_answer.strip()
+                st.session_state.practice_answers[q_key] = user_choice
+                st.session_state.practice_submitted[q_key] = True
 
-            c = db_conn.cursor()
-            c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
-                      (username, q["id"], int(is_correct)))
-            db_conn.commit()
+                c = db_conn.cursor()
+                c.execute("INSERT INTO results (username, question_id, correct) VALUES (?, ?, ?)",
+                          (username, q["id"], int(is_correct)))
+                db_conn.commit()
 
-            if is_correct:
-                st.success("Correct! ✅")
-                st.session_state.practice_index += 1
-                st.experimental_rerun()
-            else:
-                st.error(f"Incorrect ❌. Correct answer: {correct_answer}")
-                if q.get("explanation"):
-                    st.markdown(f"**Explanation**: {q['explanation']}")
-    elif submitted:
+                if is_correct:
+                    st.success("Correct! ✅")
+                    st.session_state.practice_index += 1
+                    st.experimental_rerun()
+                else:
+                    st.error(f"Incorrect ❌. Correct answer: {correct_answer}")
+                    if q.get("explanation"):
+                        st.markdown(f"**Explanation**: {q['explanation']}")
+        else:
+            st.button("Submit Answer", disabled=True)
+    else:
         prev_choice = st.session_state.practice_answers.get(q_key)
         st.info(f"You selected: {prev_choice}")
         correct_answer = q.get("correct_answer") or q.get("answer")
